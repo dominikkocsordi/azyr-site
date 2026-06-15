@@ -9,9 +9,15 @@ export default function DownloadHtmlModal() {
   const [downloaded, setDownloaded] = useState(false);
 
   // Hide developer export button in production built environments & custom/live domains
-  const isProd = window.location.hostname === "azyr.app" || 
-                 window.location.hostname.endsWith(".github.io") || 
-                 (import.meta as any).env?.PROD;
+  let isProd = false;
+  try {
+    isProd = window.location.hostname === "azyr.app" || 
+             window.location.hostname.endsWith(".github.io") || 
+             !!(import.meta as any).env?.PROD;
+  } catch (err) {
+    // Graceful fallback for sandboxed iframe iframe-origin isolation policies
+    isProd = !!(import.meta as any).env?.PROD;
+  }
 
   if (isProd) {
     return null;

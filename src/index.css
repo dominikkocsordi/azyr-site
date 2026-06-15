@@ -1,7 +1,5 @@
 @import "tailwindcss";
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
-
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-display: "Outfit", var(--font-sans);
@@ -51,6 +49,10 @@ html {
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.5);
   box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.04), 0 1px 1px 0 rgba(255, 255, 255, 0.8) inset;
+  /* Hardware acceleration for lag-free Safari scrolling */
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  will-change: transform;
 }
 
 .glass-panel-dark {
@@ -59,14 +61,22 @@ html {
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
+  /* Hardware-accelerated composition */
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  will-change: transform;
 }
 
-/* Custom glowing blobs */
+/* Custom glowing blobs - optimized to bypass heavy multi-layer blend calculations */
 .glow-blob {
-  filter: blur(140px);
-  opacity: 0.45;
-  mix-blend-mode: multiply;
+  filter: blur(80px);
+  -webkit-filter: blur(80px);
+  opacity: 0.28;
   pointer-events: none;
+  /* Hardware-accelerated composition bounds */
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  will-change: transform, filter;
 }
 
 @keyframes float {
