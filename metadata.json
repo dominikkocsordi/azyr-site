@@ -1,0 +1,6 @@
+{
+  "name": "Azyr Landing Page",
+  "description": "Eine atemberaubende, moderne und conversion-starke iOS-App-Landingpage für Azyr – Produktivität, die deinen Rhythmus versteht.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
