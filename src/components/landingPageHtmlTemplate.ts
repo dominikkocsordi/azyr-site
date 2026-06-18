@@ -3,7 +3,7 @@ export const LANDING_PAGE_HTML_TEMPLATE = `<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Azyr — Produktivität, die deinen Rhythmus versteht.</title>
+    <title>azyr.app — Produktivität, die aufatmen lässt.</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -57,7 +57,6 @@ export const LANDING_PAGE_HTML_TEMPLATE = `<!DOCTYPE html>
             background: linear-gradient(135deg, #FF9E7D 0%, #FF7DB2 50%, #B084F9 100%);
         }
         
-        /* Hardware accelerated compose classes for perfect Safari and Chrome rendering */
         .glass-panel-dark {
             background: rgba(18, 18, 22, 0.7);
             backdrop-filter: blur(20px);
@@ -94,7 +93,7 @@ export const LANDING_PAGE_HTML_TEMPLATE = `<!DOCTYPE html>
                 <div class="relative w-8.5 h-8.5 rounded-xl bg-neutral-900 flex items-center justify-center overflow-hidden border border-white/10 shadow-lg">
                     <img src="logo.png" alt="Azyr Logo" class="w-full h-full object-cover">
                 </div>
-                <span class="font-display font-bold text-lg tracking-tight hover:opacity-85 text-white transition">azyr.app</span>
+                <span class="font-display font-medium text-lg tracking-tight hover:opacity-85 text-white transition">azyr.app</span>
             </a>
             
             <nav class="hidden md:flex items-center gap-1 bg-white/[0.04] border border-white/5 px-2 py-1.5 rounded-full shadow-sm">
@@ -103,9 +102,9 @@ export const LANDING_PAGE_HTML_TEMPLATE = `<!DOCTYPE html>
                 <a href="#faq" class="px-4 py-1.5 text-xs font-semibold text-zinc-400 hover:text-white rounded-full transition">FAQ</a>
             </nav>
 
-            <div class="flex items-center gap-3">
+            <div class="flex items-center">
                 <a href="#download" class="inline-flex items-center justify-center text-xs font-bold px-4.5 py-2.5 bg-white text-black hover:bg-zinc-100 rounded-full transition">
-                    App laden
+                    App gratis laden
                 </a>
             </div>
         </div>
@@ -120,15 +119,15 @@ export const LANDING_PAGE_HTML_TEMPLATE = `<!DOCTYPE html>
                 <div class="lg:col-span-7 flex flex-col items-start gap-6 text-left">
                     <div class="inline-flex items-center gap-2 px-3 py-1 bg-white/[0.06] border border-white/[0.08] rounded-full">
                         <i class="fa-solid fa-sparkles text-brand-pink animate-pulse text-xs"></i>
-                        <span class="text-[10px] font-bold text-gradient uppercase tracking-wider">Premium iOS-Produktivität</span>
+                        <span class="text-[10px] font-bold text-gradient uppercase tracking-wider">Premium iOS-Konzept</span>
                     </div>
 
                     <h1 class="font-display font-black text-4xl sm:text-5xl md:text-6.5xl tracking-tight text-white leading-[1.05] max-w-2xl">
-                        Produktivität, die deinen <span class="text-gradient">Rhythmus</span> versteht.
+                        Produktivität, die <span class="text-gradient">aufatmen</span> lässt.
                     </h1>
 
                     <p class="text-base sm:text-lg md:text-xl text-zinc-400 font-light leading-relaxed max-w-xl">
-                        Azyr ist kein Micromanagement-Tool. Sondern ein lokaler, mitdenkender Begleiter, der durch absolute Reduktion, smarte iOS-Integration und einen 100% datenschutzkonformen On-Device-Ansatz deine tatsächliche Zeit schützt.
+                        Keine endlosen Listen, kein künstlicher Druck. Azyr lenkt deinen Fokus auf das Wesentliche – nacheinander, Karte für Karte. Vollständig privat auf deines iPhones Neural Engine verarbeitet.
                     </p>
 
                     <!-- Download Buttons -->
@@ -141,7 +140,7 @@ export const LANDING_PAGE_HTML_TEMPLATE = `<!DOCTYPE html>
                             </div>
                         </a>
                         <a href="#features" class="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-white/5 hover:bg-white/10 text-white rounded-2xl border border-white/10 transition">
-                            <span class="text-sm font-semibold">Features entdecken</span>
+                            <span class="text-sm font-semibold">Features ausprobieren</span>
                             <i class="fa-solid fa-arrow-right text-xs text-zinc-400"></i>
                         </a>
                     </div>
@@ -149,16 +148,16 @@ export const LANDING_PAGE_HTML_TEMPLATE = `<!DOCTYPE html>
                     <!-- Visual badges -->
                     <div class="grid grid-cols-2 sm:grid-cols-3 gap-6 mt-6 pt-6 border-t border-white/[0.08] w-full max-w-xl">
                         <div>
-                            <span class="text-[10px] text-zinc-500 block font-mono">ON-DEVICE</span>
+                            <span class="text-[10px] text-zinc-500 block font-mono">DABENHOHET</span>
                             <span class="text-xs font-bold text-gradient block mt-1 uppercase tracking-wider">Zero-Server</span>
                         </div>
                         <div>
-                            <span class="text-[10px] text-zinc-500 block font-mono">DATENSCHUTZ</span>
-                            <span class="text-xs font-bold text-zinc-300 block mt-1">100% iCloud E2E</span>
+                            <span class="text-[10px] text-zinc-500 block font-mono">LOCALE KI</span>
+                            <span class="text-xs font-bold text-zinc-300 block mt-1">100% On-Device Neural</span>
                         </div>
                         <div>
-                            <span class="text-[10px] text-zinc-500 block font-mono">USER INTERFACE</span>
-                            <span class="text-xs font-bold text-zinc-300 block mt-1">Apple Native Design</span>
+                            <span class="text-[10px] text-zinc-500 block font-mono">SPEICHERUNG</span>
+                            <span class="text-xs font-bold text-zinc-300 block mt-1">Apple CloudKit Sync</span>
                         </div>
                     </div>
                 </div>
@@ -178,37 +177,45 @@ export const LANDING_PAGE_HTML_TEMPLATE = `<!DOCTYPE html>
                                         <img src="logo.png" alt="Azyr Logo" class="w-full h-full object-cover">
                                     </div>
                                     <div>
-                                        <span class="text-[9px] text-zinc-500 block leading-none">azyrmosaic</span>
-                                        <span class="font-display font-medium text-xs scale-95 tracking-wide text-zinc-200">Azyr On-Device</span>
+                                        <span class="font-display font-medium text-xs scale-95 tracking-wide text-zinc-200">Azyr Task Deck</span>
                                     </div>
                                 </div>
                                 <span class="text-[9px] bg-brand-pink/10 text-brand-pink border border-brand-pink/20 px-2 py-0.5 rounded-full font-bold">
-                                    🔥 12 Tage Streak
+                                    🔥 Ruhe & Fokus
                                 </span>
                             </div>
 
-                            <!-- Top Preview Box -->
-                            <div class="bg-zinc-950/80 border border-white/5 p-3 rounded-2xl mb-3 flex flex-col gap-2">
-                                <div class="flex justify-between items-center">
-                                    <span class="text-[9px] font-mono text-zinc-500 uppercase tracking-widest">AKTUELL IM FOKUS</span>
-                                    <span class="w-1.5 h-1.5 bg-brand-pink rounded-full animate-pulse"></span>
-                                </div>
-                                <div class="flex items-start gap-2">
-                                    <div class="w-4 h-4 rounded bg-brand-pink/10 border border-brand-pink/20 flex items-center justify-center text-brand-pink shrink-0 mt-0.5">
-                                        <i class="fa-solid fa-bolt text-[9px]"></i>
+                            <!-- Single card static -->
+                            <div class="bg-zinc-950/90 border border-white/10 p-5 rounded-3xl mt-4 relative shadow-2xl flex flex-col gap-6 justify-between flex-1 min-h-[170px] border-l-brand-pink border-l-2">
+                                <div class="flex flex-col text-left">
+                                    <div class="flex items-center justify-between text-zinc-550 text-[9px] font-bold tracking-wider uppercase">
+                                        <span>Aktuelle Karte</span>
+                                        <span class="text-brand-pink font-mono">1 von 4</span>
                                     </div>
-                                    <div>
-                                        <p class="text-[11px] font-semibold text-zinc-100 leading-tight">Mosaics Design Konzept abschließen</p>
-                                        <p class="text-[9px] text-zinc-400 mt-0.5">Heute verbleibend: 1 Std. 15 Min.</p>
+                                    <h4 class="font-display font-black text-sm text-white mt-3 leading-tight select-none">
+                                        Marketing-Konzept deines Premium-Launches finalisieren
+                                    </h4>
+                                    <p class="text-[10px] text-zinc-400 mt-2 flex items-center gap-1 font-light">
+                                        <i class="fa-solid fa-map-pin text-brand-peach"></i>
+                                        <span>📍 Büro-Aktivierung</span>
+                                    </p>
+                                </div>
+
+                                <div class="grid grid-cols-2 gap-2 pt-4 border-t border-white/[0.04]">
+                                    <div class="p-2 rounded-xl bg-zinc-900 border border-white/5 text-center text-zinc-400 text-[10px]">
+                                        Später ↩
+                                    </div>
+                                    <div class="p-2 rounded-xl bg-white text-black font-extrabold text-center text-[10px]">
+                                        Erledigt ✓
                                     </div>
                                 </div>
                             </div>
 
                             <!-- Mosaic Board Visual -->
-                            <div class="bg-zinc-950/40 border border-white/5 p-3 rounded-2xl mb-3">
+                            <div class="bg-zinc-950/40 border border-white/5 p-3 rounded-2xl mb-4 mt-6">
                                 <div class="flex justify-between items-center mb-2">
                                     <span class="text-[9px] font-mono text-zinc-500 uppercase tracking-widest">DEIN MOSAIC RASTER</span>
-                                    <span class="text-[10px] font-bold text-white/80">16 / 36</span>
+                                    <span class="text-[10px] font-bold text-white/50">19 / 36</span>
                                 </div>
 
                                 <div class="grid grid-cols-6 gap-1.5 bg-black/50 p-1.5 rounded-xl border border-white/5">
@@ -216,10 +223,11 @@ export const LANDING_PAGE_HTML_TEMPLATE = `<!DOCTYPE html>
                                     <script>
                                         for (let i = 0; i < 36; i++) {
                                             let tileClass = "aspect-square rounded-sm ";
-                                            if (i < 16) {
-                                                if (i % 3 === 0) tileClass += "bg-[#FF9E7D]";
-                                                else if (i % 3 === 1) tileClass += "bg-[#FF7DB2]";
-                                                else tileClass += "bg-[#B084F9]";
+                                            if (i < 19) {
+                                                if (i % 4 === 0) tileClass += "bg-[#FF9E7D]";
+                                                else if (i % 4 === 1) tileClass += "bg-[#FF7DB2]";
+                                                else if (i % 4 === 2) tileClass += "bg-[#B084F9]";
+                                                else tileClass += "bg-[#C29BFF]";
                                             } else {
                                                 tileClass += "bg-[#141416]";
                                             }
@@ -229,15 +237,9 @@ export const LANDING_PAGE_HTML_TEMPLATE = `<!DOCTYPE html>
                                 </div>
                             </div>
 
-                            <!-- Context Location status -->
-                            <div class="bg-[#121215] border border-white/5 p-2 px-3 rounded-xl flex items-center gap-2 mt-auto mb-2 text-[9px] text-zinc-400">
-                                <i class="fa-solid fa-map-pin text-brand-peach"></i>
-                                <span>Kontext: Büro erkannt (Aufgabenliste geswitcht)</span>
-                            </div>
-
-                            <div class="bg-zinc-900 border border-white/[0.08] p-2 rounded-xl text-center text-[9px] text-zinc-500 flex items-center justify-center gap-1.5 mb-1">
+                            <div class="bg-[#121215] border border-white/5 p-2 px-3 rounded-xl flex items-center justify-center gap-1.5 mb-2 text-[9px] text-zinc-500">
                                 <i class="fa-solid fa-lock text-brand-pink text-[9px]"></i>
-                                <span>Daten verschlüsselt in deiner iCloud</span>
+                                <span>Aufgaben laufen nativerweise über Apple</span>
                             </div>
                         </div>
                     </div>
@@ -247,271 +249,313 @@ export const LANDING_PAGE_HTML_TEMPLATE = `<!DOCTYPE html>
         </div>
     </section>
 
-    <!-- VALUE BAR -->
-    <section class="bg-white/[0.02] border-y border-white/[0.06] py-10">
+    <!-- QUICK STATS BAR -->
+    <section class="bg-white/[0.02] border-y border-white/[0.06] py-10 relative z-10">
         <div class="max-w-6xl mx-auto px-6">
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-                <div>
-                    <h3 class="font-display font-black text-3xl sm:text-4xl text-gradient">Kein Server</h3>
-                    <p class="text-[9px] text-zinc-500 font-bold uppercase tracking-widest mt-1">Sicherer Offline-Ansatz</p>
+                <div class="flex flex-col items-center">
+                    <span class="text-gradient font-display font-black text-3xl sm:text-3.5xl">Kein Server</span>
+                    <span class="text-[9px] font-bold text-zinc-500 uppercase tracking-widest mt-1.5">Datenhoheit zu 100%</span>
                 </div>
-                <div>
-                    <h3 class="font-display font-black text-3xl sm:text-4xl text-gradient">100% Local</h3>
-                    <p class="text-[9px] text-zinc-500 font-bold uppercase tracking-widest mt-1">Kein Tracking</p>
+                <div class="flex flex-col items-center">
+                    <span class="text-gradient font-display font-black text-3xl sm:text-3.5xl">0% Druck</span>
+                    <span class="text-[9px] font-bold text-zinc-500 uppercase tracking-widest mt-1.5">Keine stressigen Streaks</span>
                 </div>
-                <div>
-                    <h3 class="font-display font-black text-3xl sm:text-4xl text-gradient">iOS Native</h3>
-                    <p class="text-[9px] text-zinc-500 font-bold uppercase tracking-widest mt-1">Apple Human Interface</p>
+                <div class="flex flex-col items-center">
+                    <span class="text-gradient font-display font-black text-3xl sm:text-3.5xl">CoreML Local</span>
+                    <span class="text-[9px] font-bold text-zinc-500 uppercase tracking-widest mt-1.5">Smarter Breakdown lokaler KIs</span>
                 </div>
-                <div>
-                    <h3 class="font-display font-black text-3xl sm:text-4xl text-gradient">Mosaik UX</h3>
-                    <p class="text-[9px] text-zinc-500 font-bold uppercase tracking-widest mt-1">Gamification entspannt</p>
+                <div class="flex flex-col items-center">
+                    <span class="text-gradient font-display font-black text-3xl sm:text-3.5xl">iCloud</span>
+                    <span class="text-[9px] font-bold text-zinc-500 uppercase tracking-widest mt-1.5">Voll verschlüsselte Sync</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- INTERACTIVE APP SHOWCASE EXPLAINER -->
-    <section class="py-20 md:py-28 bg-black/40 border-b border-white/[0.06]" id="features">
+    <!-- INTERACTIVE APPMOCKUP SHOWCASE -->
+    <section class="py-20 md:py-28 relative z-10 bg-black/40 border-b border-white/[0.06]" id="features">
         <div class="max-w-6xl mx-auto px-6">
             
             <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="text-[10px] font-bold uppercase tracking-widest text-[#FF7DB2] bg-brand-pink/10 border border-brand-pink/20 px-3.5 py-1.5 rounded-full inline-block">
+                <span class="text-[10px] font-bold uppercase tracking-widest text-brand-pink bg-brand-pink/5 px-4 py-1.5 rounded-full inline-block">
                     LIVE-STEUERUNG
                 </span>
-                <h2 class="font-display font-black text-3.5xl md:text-5.5xl tracking-tight text-white mt-4 leading-tight">
-                    Entdecke Azyr in Aktion.
+                <h2 class="font-display font-black text-3xl sm:text-4xl md:text-5.5xl tracking-tight text-white mt-4 leading-tight">
+                    Erlebe kognitive Balance in Aktion.
                 </h2>
                 <p class="text-zinc-400 font-light text-sm sm:text-base md:text-lg mt-3 leading-relaxed">
-                    Klicke links auf die 4 Kern-Features, um die Benutzeroberfläche der iOS-App direkt im Simulator gesteuert zu erleben.
+                    Klicke links auf die vier Säulen des minimalen Arbeitens, um den interaktiven iOS-Simulator direkt im Browser gesteuert zu erleben.
                 </p>
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                 
-                <!-- Left Buttons -->
+                <!-- Left Control Cards -->
                 <div class="lg:col-span-7 flex flex-col gap-4">
                     
-                    <!-- Reality check button -->
-                    <button onclick="siteSelectUsp('reality')" class="site-usp-btn text-left p-6 rounded-2xl border transition-all duration-300 flex gap-5 items-start bg-neutral-900/55 border-brand-pink/30 shadow-[0_0_20px_rgba(255,125,178,0.06)]" id="usp-btn-reality">
-                        <div class="w-11 h-11 rounded-1.5xl shrink-0 flex items-center justify-center bg-brand-pink text-black text-lg">
-                            <i class="fa-solid fa-calendar-days"></i>
+                    <button id="feat-btn-deck" onclick="selectUsp('deck')" class="text-left p-6 rounded-2xl transition-all duration-300 border text-white flex gap-5 items-start cursor-pointer bg-neutral-900/55 border-brand-pink/30 shadow-[0_0_25px_rgba(255,125,178,0.06)]">
+                        <div class="w-11 h-11 rounded-2xl shrink-0 flex items-center justify-center border bg-brand-pink border-brand-pink/25 text-black">
+                            <i class="fa-solid fa-layer-group text-lg"></i>
                         </div>
                         <div>
-                            <h3 class="font-display font-extrabold text-base sm:text-lg text-white tracking-tight flex items-center gap-2">
-                                <span>1. Der Reality-Check</span>
-                                <span class="text-[9px] px-2 py-0.5 bg-zinc-800 text-zinc-400 rounded-full font-mono">Plan-Analyse</span>
+                            <h3 class="font-display font-extrabold text-base sm:text-lg tracking-tight flex items-center gap-2">
+                                <span>1. Das Guided Deck</span>
+                                <span class="text-[9px] px-2 py-0.5 bg-zinc-800 text-zinc-400 rounded-full font-mono font-medium">Isotropischer Fokus</span>
                             </h3>
-                            <p class="text-zinc-400 font-light text-[13px] mt-1.5 leading-normal">
-                                Azyr vergleicht geplante Tasks vorab mit deinen tatsächlichen Termin-Slots aus dem Apple Kalender. Warnt proaktiv bei 2.5h Überplanung.
+                            <p class="text-zinc-400 font-light text-xs sm:text-sm mt-1.5 leading-normal">
+                                Keine Textwüsten mehr. Azyr zeigt immer nur *eine* Aufgabe bildschirmfüllend als Premium-Karte an. Swipe nach rechts: Erledigt. Swipe nach links: Später. Keine Entscheidungslähmung, nur pure Aktion.
                             </p>
                         </div>
                     </button>
 
-                    <!-- Geofencing button -->
-                    <button onclick="siteSelectUsp('geofence')" class="site-usp-btn text-left p-6 rounded-2xl border transition-all duration-300 flex gap-5 items-start bg-transparent border-white/[0.04]" id="usp-btn-geofence">
-                        <div class="w-11 h-11 rounded-1.5xl shrink-0 flex items-center justify-center bg-neutral-900 text-zinc-400 text-lg">
-                            <i class="fa-solid fa-map-pin"></i>
+                    <button id="feat-btn-mosaic" onclick="selectUsp('mosaic')" class="text-left p-6 rounded-2xl transition-all duration-300 border text-white flex gap-5 items-start cursor-pointer bg-transparent border-white/[0.03]">
+                        <div class="w-11 h-11 rounded-2xl shrink-0 flex items-center justify-center border bg-neutral-900 border-white/5 text-zinc-400">
+                            <i class="fa-solid fa-palette text-lg"></i>
                         </div>
                         <div>
-                            <h3 class="font-display font-extrabold text-base sm:text-lg text-white tracking-tight flex items-center gap-2">
-                                <span>2. Geofencing & Kontext</span>
-                                <span class="text-[9px] px-2 py-0.5 bg-zinc-800 text-zinc-400 rounded-full font-mono">Orts-Filter</span>
+                            <h3 class="font-display font-extrabold text-base sm:text-lg tracking-tight flex items-center gap-2">
+                                <span>2. Mosaics</span>
+                                <span class="text-[9px] px-2 py-0.5 bg-zinc-800 text-zinc-400 rounded-full font-mono font-medium">Befriedigend frei von Druck</span>
                             </h3>
-                            <p class="text-zinc-400 font-light text-[13px] mt-1.5 leading-normal">
-                                Durch lokales CoreLocation-Geofencing blendet die App die passende Aufgabenliste ein, je nachdem ob du im Büro oder Zuhause bist.
+                            <p class="text-zinc-400 font-light text-xs sm:text-sm mt-1.5 leading-normal">
+                                Keine stressigen Streaks, die bei Krankheit abreißen. Wer eine Aufgabe erledigt, dreht direkt auf der Karte eine Mosaik-Kachel um. So baust du mit jeder kleinen Tat wunderschöne, visuelle Kunstwerke auf. Ein Belohnungssystem, das Dopamin liefert, statt Druck zu machen.
                             </p>
                         </div>
                     </button>
 
-                    <!-- Zen focus button -->
-                    <button onclick="siteSelectUsp('focus')" class="site-usp-btn text-left p-6 rounded-2xl border transition-all duration-300 flex gap-5 items-start bg-transparent border-white/[0.04]" id="usp-btn-focus">
-                        <div class="w-11 h-11 rounded-1.5xl shrink-0 flex items-center justify-center bg-neutral-900 text-zinc-400 text-lg">
-                            <i class="fa-solid fa-sliders"></i>
+                    <button id="feat-btn-breakdown" onclick="selectUsp('breakdown')" class="text-left p-6 rounded-2xl transition-all duration-300 border text-white flex gap-5 items-start cursor-pointer bg-transparent border-white/[0.03]">
+                        <div class="w-11 h-11 rounded-2xl shrink-0 flex items-center justify-center border bg-neutral-900 border-white/5 text-zinc-400">
+                            <i class="fa-solid fa-bolt text-lg"></i>
                         </div>
                         <div>
-                            <h3 class="font-display font-extrabold text-base sm:text-lg text-white tracking-tight flex items-center gap-2">
-                                <span>3. Zen Focus-Modus</span>
-                                <span class="text-[9px] px-2 py-0.5 bg-zinc-800 text-zinc-400 rounded-full font-mono">Fokus-Timer</span>
+                            <h3 class="font-display font-extrabold text-base sm:text-lg tracking-tight flex items-center gap-2">
+                                <span>3. On-Device KI & Smart Breakdown</span>
+                                <span class="text-[9px] px-2 py-0.5 bg-zinc-800 text-zinc-400 rounded-full font-mono font-medium">Lokale Intelligenz</span>
                             </h3>
-                            <p class="text-zinc-400 font-light text-[13px] mt-1.5 leading-normal">
-                                Blendet die gesamte To-Do-Liste aus und zeigt nur noch die voraussichtlich wichtigste Kernaufgabe mit einem beruhigenden, 25-minütigen Haptik-Timer.
+                            <p class="text-zinc-400 font-light text-xs sm:text-sm mt-1.5 leading-normal">
+                                Überwältigt von einer großen Aufgabe? Ein Tippen, und Apples lokale KI zerschneidet den Brocken automatisch in winzige, machbare Mikroschritte. Datum und Verben werden beim Tippen intelligent erkannt – komplett ohne Cloud-Anbindung.
                             </p>
                         </div>
                     </button>
 
-                    <!-- Mosaics button -->
-                    <button onclick="siteSelectUsp('mosaic')" class="site-usp-btn text-left p-6 rounded-2xl border transition-all duration-300 flex gap-5 items-start bg-transparent border-white/[0.04]" id="usp-btn-mosaic">
-                        <div class="w-11 h-11 rounded-1.5xl shrink-0 flex items-center justify-center bg-neutral-900 text-zinc-400 text-lg">
-                            <i class="fa-solid fa-palette"></i>
+                    <button id="feat-btn-privacy" onclick="selectUsp('privacy')" class="text-left p-6 rounded-2xl transition-all duration-300 border text-white flex gap-5 items-start cursor-pointer bg-transparent border-white/[0.03]">
+                        <div class="w-11 h-11 rounded-2xl shrink-0 flex items-center justify-center border bg-neutral-900 border-white/5 text-zinc-400">
+                            <i class="fa-solid fa-map-pin text-lg"></i>
                         </div>
                         <div>
-                            <h3 class="font-display font-extrabold text-base sm:text-lg text-white tracking-tight flex items-center gap-2">
-                                <span>4. Mosaics</span>
-                                <span class="text-[9px] px-2 py-0.5 bg-zinc-800 text-zinc-400 rounded-full font-mono">Visual-Reward</span>
+                            <h3 className="font-display font-extrabold text-base sm:text-lg tracking-tight flex items-center gap-2">
+                                <span>4. Zero-Server Privacy & Geofencing</span>
+                                <span className="text-[9px] px-2 py-0.5 bg-zinc-800 text-zinc-400 rounded-full font-mono font-medium">Verschlüsselter nativer Sync</span>
                             </h3>
-                            <p class="text-zinc-400 font-light text-[13px] mt-1.5 leading-normal">
-                                Mit jedem Abschluss einer Tagesaufgabe kippt eine Kachel im Pixelraster um und enthüllt nach und nach ein wunderschönes visuelles Wochengemälde.
+                            <p class="text-zinc-400 font-light text-xs sm:text-sm mt-1.5 leading-normal">
+                                Die App läuft 100% lokal. Aufgaben synchronisieren sich über Apples eigene Erinnerungen-App. Durch lokales Geofencing weiß die App, ob du auf der Arbeit oder Zuhause bist, und schiebt automatisch die richtige Karte nach vorne. Keine Tracker.
                             </p>
                         </div>
                     </button>
 
                 </div>
 
-                <!-- Right Simulator Frame -->
+                <!-- Right Simulator Widget -->
                 <div class="lg:col-span-5 flex justify-center items-center relative">
-                    <!-- Toast alert -->
-                    <div id="sim-toast" class="absolute top-8 left-6 right-6 bg-gradient-brand text-black font-semibold text-xs py-3 px-4 rounded-xl text-center shadow-lg pointer-events-none z-50 flex items-center justify-center gap-2 hidden">
-                        <i class="fa-solid fa-sparkles animate-spin"></i>
-                        <span id="sim-toast-text">Tagesplan optimiert! Burnout geschützt ✨</span>
+                    
+                    <!-- Sim Toast Alert -->
+                    <div id="sim-toast" class="hidden absolute top-8 left-6 right-6 bg-gradient-brand text-black font-semibold text-[11px] py-2.5 px-3.5 rounded-xl text-center shadow-2xl z-50 flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-sparkles animate-spin text-black"></i>
+                        <span id="sim-toast-text">Haptisches Feedback ausgelöst!</span>
                     </div>
 
-                    <div class="relative w-full max-w-[335px] aspect-[9/19] bg-[#0c0c0e] rounded-[52px] p-3.5 shadow-2xl border-[8px] border-[#1f1f25] flex flex-col overflow-hidden">
+                    <!-- Simulator shell -->
+                    <div class="relative w-full max-w-[330px] aspect-[9/19] bg-[#070709] rounded-[52px] p-3.5 shadow-2.5xl border-[8px] border-[#1e1e24] flex flex-col overflow-hidden">
                         
                         <!-- Notch -->
-                        <div class="absolute top-0 left-1/2 -translate-x-1/2 h-5.5 w-30 bg-[#1f1f25] rounded-b-2xl z-50 flex items-center justify-between px-3">
-                            <div class="w-2 h-2 bg-black rounded-full"></div>
-                            <div class="w-10 h-1 bg-black rounded-full"></div>
+                        <div class="absolute top-0 left-1/2 -translate-x-1/2 h-5 w-28 bg-[#1e1e24] rounded-b-2xl z-50 flex items-center justify-between px-3">
+                          <div class="w-2 h-2 bg-black rounded-full"></div>
+                          <div class="w-8 h-1 bg-black rounded-full"></div>
                         </div>
 
-                        <!-- Inner Screen Content -->
-                        <div class="relative z-10 flex flex-col h-full text-white font-sans text-xs pt-4 px-2">
+                        <!-- Content wrapper -->
+                        <div class="relative z-10 flex flex-col h-full text-white font-sans text-xs pt-2">
                             
-                            <div class="flex justify-between items-center text-[9px] text-zinc-500 font-mono tracking-wider pt-2 border-b border-white/[0.04] pb-2 mb-3">
-                                <span>AZYR O/S V1.9</span>
-                                <span class="text-emerald-400 font-bold">● ON-DEVICE SECURE</span>
+                            <!-- iOS status panel -->
+                            <div class="flex justify-between items-center text-[9px] font-bold text-zinc-400 px-1.5 pt-0.5 pb-2">
+                                <span>09:41</span>
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-solid fa-signal text-zinc-400 text-[8px]"></i>
+                                    <i class="fa-solid fa-wifi text-zinc-400 text-[8px]"></i>
+                                    <div class="w-4 h-2 border border-zinc-500 rounded-[2.5px] p-0.5 flex items-center">
+                                        <div class="bg-emerald-500 h-full w-full rounded-[0.5px]"></div>
+                                    </div>
+                                </div>
                             </div>
 
-                            <!-- SCREEN VIEWS -->
-                            
-                            <!-- 1. Reality Check View -->
-                            <div id="view-reality" class="sim-view flex flex-col gap-3 flex-1 justify-between">
-                                <div class="flex flex-col gap-2.5">
-                                    <div class="flex items-center gap-1.5">
-                                        <i class="fa-solid fa-calendar-days text-brand-pink text-sm"></i>
-                                        <span class="font-display font-medium text-xs text-zinc-300">Tagesbilanz-Check</span>
+                            <!-- SCREEN 1: Guided Deck -->
+                            <div id="sim-screen-deck" class="flex flex-col gap-3 flex-1 justify-between">
+                                <div class="flex flex-col text-left">
+                                    <div class="flex justify-between items-center mt-1">
+                                        <span class="text-[10px] uppercase tracking-widest text-[#B084F9] font-bold font-mono">Guided Deck</span>
+                                        <span class="text-[9px] bg-brand-pink/10 text-brand-pink border border-brand-pink/20 px-2 rounded-full font-bold">Aktiv</span>
                                     </div>
-                                    <p class="text-[10px] text-zinc-400">Kalenderfreiräume werden direkt mit geschätzten Taskzeiten verrechnet.</p>
-                                    
-                                    <div class="bg-zinc-950/80 p-2.5 rounded-xl border border-white/5 flex flex-col gap-1.5">
-                                        <div class="flex justify-between text-[8px] text-zinc-500 font-bold uppercase tracking-wider">
-                                            <span>Kalender-Lücken</span>
-                                            <span>Frei: 4 Std.</span>
-                                        </div>
-                                        <div class="flex gap-1">
-                                            <div class="flex-1 bg-zinc-800 text-zinc-400 py-1 px-1.5 rounded text-[8.5px]">Team-Sync<br><span class="text-[7.5px] opacity-60">10:00-12:00</span></div>
-                                            <div class="flex-1 bg-zinc-800 text-zinc-400 py-1 px-1.5 rounded text-[8.5px]">Review<br><span class="text-[7.5px] opacity-60">14:00-16:00</span></div>
-                                        </div>
-                                    </div>
+                                    <h3 class="font-display font-black text-2.5xl tracking-tight text-white leading-none mt-2">Fokus</h3>
+                                    <span class="text-[9px] text-zinc-500 mt-0.5">Eine Aufgabe nach der anderen</span>
+                                </div>
 
-                                    <div class="flex flex-col gap-1.5">
-                                        <span class="text-[8px] font-mono text-zinc-500 tracking-widest mt-1">GEPLANTE TASKS</span>
-                                        <div class="p-2.5 rounded-xl border border-white/5 bg-zinc-900 flex justify-between items-center" id="task-r1">
-                                            <span>Landingpage finalisieren</span>
-                                            <span class="text-[9px] font-mono py-0.5 px-1 bg-zinc-800 rounded">3h</span>
+                                <div class="relative flex-1 flex items-center justify-center px-1 my-2">
+                                    <div id="deck-card-elm" class="w-full bg-[#111114] border border-white/10 rounded-[28px] p-5 pt-6 shadow-2xl flex flex-col justify-between aspect-[1/1.05] transition-all duration-300">
+                                        <div class="flex flex-col text-left">
+                                            <span class="text-[8.5px] uppercase font-bold tracking-widest text-brand-pink font-mono">Priorität</span>
+                                            <h4 id="deck-card-title" class="font-display font-black text-sm text-zinc-100 mt-2 leading-snug">
+                                                "Schnittstellen-Architektur aufskizzieren"
+                                            </h4>
                                         </div>
-                                        <div class="p-2.5 rounded-xl border border-white/5 bg-zinc-900 flex justify-between items-center">
-                                            <span>Schnittstellen testen</span>
-                                            <span class="text-[9px] font-mono py-0.5 px-1 bg-zinc-800 rounded">2h</span>
+                                        <div class="flex items-center justify-between mt-4 pt-4 border-t border-white/[0.04] text-[10px] text-zinc-500 font-light">
+                                            <span class="flex items-center gap-1">
+                                                <i class="fa-regular fa-clock text-zinc-600"></i>
+                                                <span id="deck-card-time">45 Min</span>
+                                            </span>
+                                            <span id="deck-card-ctx" class="font-semibold text-brand-peach">📍 Büro-Fokus</span>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="mt-auto mb-2 flex flex-col gap-2">
-                                    <div id="sim-reality-warning" class="bg-amber-500/10 border border-amber-500/20 p-2.5 rounded-xl text-[9.5px] text-amber-300">
-                                        <i class="fa-solid fa-triangle-exclamation text-amber-450 mr-1.5"></i>
-                                        <strong>2.5h überplanter Tagesplan!</strong> Burnoutgefahr proaktiv erkannt.
+                                <div>
+                                    <div class="grid grid-cols-2 gap-3 pb-2">
+                                        <button onclick="swipeDeck('left')" class="bg-zinc-900 hover:bg-zinc-800 text-zinc-300 font-bold py-3 rounded-2xl border border-white/5 cursor-pointer text-center text-[10px] flex items-center justify-center gap-1.5">
+                                            <span>Später</span><span class="opacity-40">↩</span>
+                                        </button>
+                                        <button onclick="swipeDeck('right')" class="bg-white hover:bg-zinc-100 text-black font-extrabold py-3 rounded-2xl cursor-pointer text-center text-[10px] flex items-center justify-center gap-1.5 shadow-lg">
+                                            <span>Erledigt</span><span class="text-emerald-600 font-bold">✓</span>
+                                        </button>
                                     </div>
-                                    <button onclick="simOptimizeReality()" id="btn-optimize-reality" class="bg-[#FF7DB2] text-black font-extrabold text-[10.5px] py-2 px-3 rounded-xl hover:opacity-90 transition">
-                                        Tagesplan optimieren ✨
+                                    <span class="text-[8px] text-zinc-600 text-center block mb-2">Klicke zum swipen und fülle das Mosaik.</span>
+                                </div>
+                            </div>
+
+                            <!-- SCREEN 2: Mosaics -->
+                            <div id="sim-screen-mosaic" class="hidden flex flex-col gap-3 flex-1 justify-between">
+                                <div class="flex flex-col text-left">
+                                    <div class="flex justify-between items-center mt-1">
+                                        <h3 class="font-display font-black text-2xl tracking-tight text-white leading-none">Mosaike</h3>
+                                        <span class="text-[10px] font-bold text-zinc-500 font-mono">JUNI 2026</span>
+                                    </div>
+                                    <span class="text-[9px] text-zinc-400 mt-1">Streaks stressen. Fortschritt inspiriert.</span>
+                                </div>
+
+                                <div class="bg-[#111114] border border-white/[0.04] p-3 rounded-[24px] shadow-xl my-1 flex-1 flex flex-col justify-between">
+                                    <div class="flex justify-between items-center border-b border-white/[0.03] pb-2 text-[9px] text-zinc-500">
+                                        <span>Tippe Kacheln zum Wenden</span>
+                                        <span id="mosaic-count-label" class="font-bold text-zinc-300">19 von 36 gelegt</span>
+                                    </div>
+
+                                    <div id="mosaic-grid-container" class="grid grid-cols-6 gap-1.5 p-1.5 bg-black/65 rounded-xl border border-white/[0.03] my-3">
+                                        <!-- Will populate dynamically -->
+                                    </div>
+
+                                    <div class="bg-zinc-950/40 p-2 text-[10px] rounded-lg border border-white/5 text-center leading-tight">
+                                        <span class="font-medium text-brand-peach block">Keine kaputten Streaks</span>
+                                        <span class="text-zinc-500 text-[8.5px] mt-0.5 block">Kreative Fortschritte ohne Druck.</span>
+                                    </div>
+                                </div>
+
+                                <div class="pb-1 text-center">
+                                    <button onclick="resetMosaicHtml()" class="text-zinc-600 hover:text-zinc-400 text-[8.5px] font-semibold underline cursor-pointer">Mosaik zurücksetzen</button>
+                                </div>
+                            </div>
+
+                            <!-- SCREEN 3: Smart Breakdown -->
+                            <div id="sim-screen-breakdown" class="hidden flex flex-col gap-3 flex-1 justify-between text-left">
+                                <div>
+                                    <span class="text-[9px] font-bold text-brand-violet uppercase tracking-wider font-mono">100% OFF-LINE KI</span>
+                                    <h3 class="font-display font-black text-2.5xl tracking-tight text-[#e4e4e7] leading-none mt-1">Smart Breakdown</h3>
+                                </div>
+
+                                <div class="bg-[#111114] border border-white/[0.05] p-4 rounded-[24px] flex-1 flex flex-col justify-between shadow-2xl my-1">
+                                    <div>
+                                        <div class="text-[9px] text-zinc-550 font-bold uppercase font-mono tracking-wider">Aufgabe:</div>
+                                        <h4 class="font-display font-black text-sm text-white mt-1 leading-snug">
+                                            "Marketing-Präsentation ausarbeiten"
+                                        </h4>
+                                        <span class="text-[8.5px] bg-brand-violet/15 text-brand-violet px-2 py-0.5 rounded-full font-bold inline-block mt-2">
+                                            Local Intel Engine
+                                        </span>
+                                    </div>
+
+                                    <div id="is-breaking-container" class="my-3 flex-1 flex flex-col justify-center">
+                                        <p class="text-[10px] text-zinc-500 text-center leading-normal font-light">
+                                            Zerlege diesen Block mit lokaler KI völlig datensicher in kleine Mikroschritte.
+                                        </p>
+                                    </div>
+
+                                    <button id="breakdown-action-btn" onclick="triggerBreakdownHtml()" class="w-full bg-gradient-to-r from-orange-400 to-pink-500 text-white font-extrabold py-3.5 rounded-2xl cursor-pointer text-center text-[10px] flex items-center justify-center gap-1 shadow-lg">
+                                        <span>✨ Smart Breakdown</span>
                                     </button>
                                 </div>
                             </div>
 
-                            <!-- 2. Geofence View -->
-                            <div id="view-geofence" class="sim-view flex flex-col gap-3 flex-1 justify-between hidden">
-                                <div class="flex flex-col gap-2.5">
-                                    <div class="flex items-center gap-1.5">
-                                        <i class="fa-solid fa-map-pin text-brand-peach text-sm"></i>
-                                        <span class="font-display font-medium text-xs text-zinc-300">Kontext-Filter</span>
-                                    </div>
-                                    <p class="text-[10px] text-zinc-400">Sortiert nicht relevante Aufgaben automatisch basierend auf deinem Standort aus.</p>
-                                    
-                                    <div class="grid grid-cols-2 gap-2 p-1 bg-black/50 border border-white/5 rounded-xl">
-                                        <button onclick="simSetContext('office')" id="btn-context-office" class="py-1.5 px-2 rounded-lg text-xs font-bold bg-brand-peach text-black">🏢 Büro</button>
-                                        <button onclick="simSetContext('home')" id="btn-context-home" class="py-1.5 px-2 rounded-lg text-xs font-bold text-zinc-400">🏠 Zuhause</button>
+                            <!-- SCREEN 4: Privacy & Geofence -->
+                            <div id="sim-screen-privacy" class="hidden flex flex-col gap-3 flex-1 justify-between text-left">
+                                <div>
+                                    <span class="text-[9px] font-bold text-brand-peach uppercase tracking-wider font-mono">Zero Server Tracker</span>
+                                    <h3 class="font-display font-black text-2.5xl tracking-tight text-white leading-none mt-1">Integration</h3>
+                                </div>
+
+                                <div class="bg-[#111114] border border-white/[0.04] p-3.5 rounded-[24px] flex-1 flex flex-col justify-between shadow-xl my-1">
+                                    <div class="relative h-28 bg-black/60 rounded-xl overflow-hidden border border-white/[0.03] flex items-center justify-center">
+                                        <div class="absolute w-24 h-24 rounded-full border border-blue-500/10 animate-pulse"></div>
+                                        <div class="absolute w-16 h-16 rounded-full border border-blue-500/15"></div>
+                                        
+                                        <div class="absolute flex flex-col items-center">
+                                            <span class="relative flex h-2 w-2">
+                                                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                                                <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-500 shadow-[0_0_8px_rgba(59,130,246,0.8)]"></span>
+                                            </span>
+                                            <span class="text-[7.5px] text-zinc-400 font-mono mt-1 px-1 py-0.2 bg-black border border-white/5 rounded font-semibold">CORELOCATION_OFFICE</span>
+                                        </div>
                                     </div>
 
                                     <div class="flex flex-col gap-1.5 mt-2">
-                                        <span class="text-[8px] font-mono text-zinc-500 tracking-wider" id="context-list-title">BÜRO TASKS (3)</span>
-                                        <div id="context-tasks-container" class="flex flex-col gap-1.5">
-                                            <!-- Managed by Script -->
+                                        <div id="ctx-office-card" onclick="setSimLoc('office')" class="p-2 rounded-xl border border-blue-500/20 bg-blue-500/5 text-white flex items-center justify-between cursor-pointer">
+                                            <div class="flex items-center gap-1.5">
+                                                <span>💼</span>
+                                                <span class="text-[10px] font-bold">Im Büro (150m)</span>
+                                            </div>
+                                            <span class="text-[7.5px] bg-blue-500 text-white px-2 py-0.5 rounded-full font-bold">Aktiv</span>
+                                        </div>
+
+                                        <div id="ctx-home-card" onclick="setSimLoc('home')" class="p-2 rounded-xl border border-white/5 bg-zinc-900/40 text-white flex items-center justify-between cursor-pointer opacity-55">
+                                            <div class="flex items-center gap-1.5">
+                                                <span>🏡</span>
+                                                <span class="text-[10px] font-bold">Zuhause (100m)</span>
+                                            </div>
+                                            <span id="label-home-ctx" class="hidden text-[7.5px] bg-emerald-500 text-white px-2 py-0.5 rounded-full font-bold">Aktiv</span>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class="bg-zinc-950/80 p-2.5 rounded-xl border border-white/5 text-[9px] text-zinc-500 flex items-center gap-2 mt-auto mb-2 text-center">
-                                    <i class="fa-solid fa-lock text-brand-peach"></i>
-                                    <span>CoreLocation Geodaten verbleiben exklusiv auf deinem Endgerät.</span>
+                                    <p class="text-[8.5px] text-zinc-500 leading-snug text-center pt-2">
+                                        Apple iCloud Sync & Erinnerungen. Keine Cloud Tracker.
+                                    </p>
                                 </div>
                             </div>
 
-                            <!-- 3. Focus View -->
-                            <div id="view-focus" class="sim-view flex flex-col gap-3 flex-1 justify-between hidden">
-                                <div class="flex flex-col gap-3 text-center">
-                                    <div class="flex items-center justify-center gap-1.5">
-                                        <i class="fa-solid fa-heart-pulse text-brand-violet text-sm"></i>
-                                        <span class="font-display font-medium text-xs text-zinc-300">Zen Focus-Modus</span>
-                                    </div>
-                                    <p class="text-[10px] text-zinc-400">Eliminiere Multitasking vollständig aus deinem Arbeitsalltag.</p>
-                                </div>
-
-                                <div class="flex justify-center items-center my-4">
-                                    <div class="w-28 h-28 rounded-full border border-white/5 bg-zinc-950/50 flex flex-col items-center justify-center relative">
-                                        <div class="absolute inset-2 rounded-full border border-transparent border-t-brand-violet animate-spin"></div>
-                                        <span class="font-mono text-lg font-bold" id="sim-timer-val">24:59</span>
-                                        <span class="text-[8px] uppercase tracking-wider text-brand-violet mt-1">Focus Mode</span>
-                                    </div>
-                                </div>
-
-                                <div class="bg-zinc-900 border border-brand-violet/25 p-3 rounded-xl text-center">
-                                    <span class="text-[8px] font-mono text-zinc-500 block">DEINE EINZIGE PRIO</span>
-                                    <p class="text-[11px] font-bold text-zinc-200 mt-1">Mindfulness Design Concept entwerfen</p>
-                                </div>
-
-                                <button onclick="simToggleTimer()" id="btn-toggle-timer" class="w-full py-2 px-3 rounded-xl bg-brand-violet text-white font-bold text-[10.5px] mt-auto mb-2 shadow-lg shadow-brand-violet/10">
-                                    Fokus Pause
-                                </button>
-                            </div>
-
-                            <!-- 4. Mosaic View -->
-                            <div id="view-mosaic" class="sim-view flex flex-col gap-3 flex-1 justify-between hidden">
-                                <div class="flex flex-col gap-2">
-                                    <div class="flex items-center gap-1.5">
-                                        <i class="fa-solid fa-palette text-brand-lavender text-sm"></i>
-                                        <span class="font-display font-medium text-xs text-zinc-300">Wochen-Mosaic</span>
-                                    </div>
-                                    <p class="text-[10px] text-zinc-400">Verwandle geschaffte Pflichten haptisch in pixelgenaue Mosaik-Kacheln.</p>
+                            <!-- MENU ACCENT BAR -->
+                            <div class="mt-auto mb-1 z-20 flex justify-center w-full px-0.5">
+                                <div class="bg-[#121215]/90 backdrop-blur-md border border-white/[0.08] rounded-full p-1.5 w-full flex justify-between items-center shadow-xl">
                                     
-                                    <div class="grid grid-cols-6 gap-1 bg-black/60 p-1.5 rounded-xl border border-white/5" id="sim-mosaic-grid">
-                                        <!-- Inside JS script -->
-                                    </div>
-                                </div>
-
-                                <div class="flex flex-col gap-1.5 mt-1">
-                                    <span class="text-[8px] font-mono text-zinc-500">TÄGLICHE TASKS</span>
-                                    <button onclick="simCheckMosaicTask(1)" id="sim-mtask-1" class="w-full p-2 rounded-xl text-left border border-white/5 bg-zinc-900 flex justify-between items-center text-[10px]">
-                                        <span class="flex items-center gap-1.5"><div class="w-3.5 h-3.5 rounded border border-white/20" id="sim-mcheck-1"></div> iCloud aktivieren</span>
-                                        <span class="font-mono text-zinc-500 text-[8px]">Tile 18</span>
+                                    <button onclick="selectUsp('deck')" id="bar-tab-deck" class="flex-1 py-1 px-0.5 rounded-full flex flex-col items-center gap-0.5 bg-[#25252b] text-white font-extrabold cursor-pointer">
+                                        <i class="fa-solid fa-layer-group text-[#FF8BB8] text-[9px]"></i>
+                                        <span class="text-[7px]">Deck</span>
                                     </button>
-                                    <button onclick="simCheckMosaicTask(2)" id="sim-mtask-2" class="w-full p-2 rounded-xl text-left border border-white/5 bg-zinc-900 flex justify-between items-center text-[10px]">
-                                        <span class="flex items-center gap-1.5"><div class="w-3.5 h-3.5 rounded border border-white/20" id="sim-mcheck-2"></div> Geolocation freigeben</span>
-                                        <span class="font-mono text-zinc-500 text-[8px]">Tile 19</span>
-                                    </button>
-                                </div>
 
-                                <div class="bg-zinc-950/80 p-2 rounded-xl text-[9px] text-zinc-400 mt-auto mb-2 text-center">
-                                    Fortschritt wird zu Ästhetik. Kein Streak-Zwang.
+                                    <button onclick="selectUsp('mosaic')" id="bar-tab-mosaic" class="flex-1 py-1 px-0.5 rounded-full flex flex-col items-center gap-0.5 text-zinc-500 hover:text-zinc-300 cursor-pointer">
+                                        <i class="fa-solid fa-palette text-[9px]"></i>
+                                        <span class="text-[7px]">Mosaike</span>
+                                    </button>
+
+                                    <button onclick="selectUsp('breakdown')" id="bar-tab-breakdown" class="flex-1 py-1 px-0.5 rounded-full flex flex-col items-center gap-0.5 text-zinc-500 hover:text-zinc-300 cursor-pointer">
+                                        <i class="fa-solid fa-bolt text-[9px]"></i>
+                                        <span class="text-[7px]">Smart KI</span>
+                                    </button>
+
                                 </div>
                             </div>
 
@@ -523,148 +567,166 @@ export const LANDING_PAGE_HTML_TEMPLATE = `<!DOCTYPE html>
         </div>
     </section>
 
-    <!-- THE 4 USPs DETAILS BENTO GRID -->
-    <section class="py-24" id="details">
+    <!-- DETAILED FEATURES CARD BENTO GRID -->
+    <section class="py-24 relative z-10" id="usps-details">
         <div class="max-w-6xl mx-auto px-6">
             
             <div class="text-center max-w-2xl mx-auto mb-16">
-                <span class="text-xs font-mono font-bold uppercase tracking-widest text-[#FF7DB2] bg-brand-pink/5 px-3 py-1.5 rounded-full">Säulen der App</span>
-                <h2 class="font-display font-black text-3.5xl md:text-5xl tracking-tight text-white mt-4">
+                <span class="text-xs font-mono font-bold uppercase tracking-widest text-[#FF7DB2] bg-brand-pink/5 px-3.5 py-1.5 rounded-full">
+                    SÄULEN DER APP
+                </span>
+                <h2 class="font-display font-black text-3.5xl md:text-5xl tracking-tight text-white mt-4 leading-tight">
                     Die 4 Säulen von Azyr.
                 </h2>
-                <p class="text-zinc-500 mt-3 font-light leading-relaxed">
-                    Jedes Feature von Azyr wurde entworfen, um kognitiven Ballast abzubauen. Wir machen Technologie, die nicht stört, sondern befreit.
+                <p class="text-zinc-500 font-light text-sm sm:text-base mt-3 leading-relaxed">
+                    Jedes Feature von Azyr wurde entworfen, um kognitiven Ballast abzubauen. Wir machen Technologie, die nicht stört, sondern beruhigt.
                 </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
                 
-                <!-- USP 1 Detail -->
-                <div class="md:col-span-6 bg-zinc-950/60 border border-white/[0.05] rounded-3xl p-8 flex flex-col justify-between">
+                <!-- Card 1: Das Guided Deck -->
+                <div class="md:col-span-6 bg-zinc-950/60 border border-white/[0.05] rounded-3xl p-8 relative overflow-hidden group hover:border-brand-pink/20 transition duration-300 flex flex-col justify-between">
                     <div>
-                        <div class="w-11 h-11 bg-brand-pink text-black rounded-2xl flex items-center justify-center shadow-lg mb-6">
-                            <i class="fa-solid fa-calendar-days text-lg"></i>
+                        <div class="w-11 h-11 bg-brand-pink text-black rounded-2xl flex items-center justify-center shadow-lg mb-6 group-hover:scale-105 transition">
+                            <i class="fa-solid fa-layer-group text-lg"></i>
                         </div>
-                        <h3 class="font-display font-bold text-xl text-white tracking-tight">Der Reality-Check (Tagesbilanz)</h3>
-                        <p class="text-zinc-400 font-light mt-3 leading-relaxed text-sm">
-                            Azyr vergleicht geplante Tasks vorab mit deinen tatsächlichen Termin-Slots aus dem Apple Kalender. Wenn du 4 Stunden an To-Dos planst, aber nur 2 Stunden Meeting-Pause hast, warnt dich die App proaktiv. Das schützt vor unrealistischer Arbeitsbelastung und Burnout.
+                        <h3 class="font-display font-bold text-xl text-white tracking-tight">
+                            Das "Guided Deck" (Fokus statt Listen-Panik)
+                        </h3>
+                        <p class="text-zinc-400 font-light mt-3 text-xs sm:text-sm leading-relaxed">
+                            Keine Textwüsten mehr. Azyr zeigt immer nur *eine* Aufgabe bildschirmfüllend als Premium-Karte an. Swipe nach rechts: Erledigt. Swipe nach links: Später. Keine Entscheidungslähmung, nur pure Aktion.
                         </p>
                     </div>
-                    <div class="flex gap-2 mt-6 border-t border-white/[0.05] pt-4 text-[10px] uppercase font-mono font-bold">
-                        <span class="px-2.5 py-1 rounded-full bg-zinc-900 border border-white/5 text-brand-pink">STRESSPREVENTION</span>
+                    <div class="flex flex-wrap gap-2 mt-6 border-t border-white/[0.05] pt-4">
+                        <span class="text-[10px] font-bold font-mono tracking-wider px-2.5 py-1 rounded-full bg-zinc-900 border border-white/5 text-brand-pink font-semibold">ZERO_DECISION_PARALYSIS</span>
+                        <span class="text-[10px] font-bold font-mono tracking-wider px-2.5 py-1 rounded-full bg-zinc-900 border border-white/5 text-zinc-400">SINGLE_CARD_FOCUS</span>
                     </div>
                 </div>
 
-                <!-- USP 2 Detail -->
-                <div class="md:col-span-6 bg-zinc-950/60 border border-white/[0.05] rounded-3xl p-8 flex flex-col justify-between">
+                <!-- Card 2: Mosaics -->
+                <div class="md:col-span-6 bg-zinc-950/60 border border-white/[0.05] rounded-3xl p-8 relative overflow-hidden group hover:border-brand-peach/20 transition duration-300 flex flex-col justify-between">
                     <div>
-                        <div class="w-11 h-11 bg-brand-peach text-black rounded-2xl flex items-center justify-center shadow-lg mb-6">
-                            <i class="fa-solid fa-map-pin text-lg"></i>
-                        </div>
-                        <h3 class="font-display font-bold text-xl text-white tracking-tight">Geofencing & Kontext-Listen</h3>
-                        <p class="text-zinc-400 font-light mt-3 leading-relaxed text-sm">
-                            Durch lokales CoreLocation-Geofencing schaltet die App vollautomatisch deine relevante Tasks-Routine um. Büro-To-Dos erlöschen, sobald du dein Zuhause betrittst, und umgekehrt. Das sorgt für klaren Kopf ohne manuelle Listen-Verschiebungen.
-                        </p>
-                    </div>
-                    <div class="flex gap-2 mt-6 border-t border-white/[0.05] pt-4 text-[10px] uppercase font-mono font-bold">
-                        <span class="px-2.5 py-1 rounded-full bg-zinc-900 border border-white/5 text-brand-peach">CORELOCATION NATIVE</span>
-                    </div>
-                </div>
-
-                <!-- USP 3 Detail -->
-                <div class="md:col-span-6 bg-zinc-950/60 border border-white/[0.05] rounded-3xl p-8 flex flex-col justify-between">
-                    <div>
-                        <div class="w-11 h-11 bg-brand-violet text-white rounded-2xl flex items-center justify-center shadow-lg mb-6">
-                            <i class="fa-solid fa-bolt text-lg"></i>
-                        </div>
-                        <h3 class="font-display font-bold text-xl text-white tracking-tight">Zen Focus-Modus (Timer-Integration)</h3>
-                        <p class="text-zinc-400 font-light mt-3 leading-relaxed text-sm">
-                            Ein schwebender Fokus-Button blendet die gesamte To-Do-Liste aus und zeigt nur noch die voraussichtlich wichtigste Kernaufgabe mit einem beruhigenden, 25-minütigen Haptik-Timer an. Eliminere Multitasking gänzlich aus deinem Arbeitsalltag.
-                        </p>
-                    </div>
-                    <div class="flex gap-2 mt-6 border-t border-white/[0.05] pt-4 text-[10px] uppercase font-mono font-bold">
-                        <span class="px-2.5 py-1 rounded-full bg-zinc-900 border border-white/5 text-brand-violet">POMODORO REDEFINED</span>
-                    </div>
-                </div>
-
-                <!-- USP 4 Detail -->
-                <div class="md:col-span-6 bg-zinc-950/60 border border-white/[0.05] rounded-3xl p-8 flex flex-col justify-between">
-                    <div>
-                        <div class="w-11 h-11 bg-brand-lavender text-black rounded-2xl flex items-center justify-center shadow-lg mb-6">
+                        <div class="w-11 h-11 bg-brand-peach text-black rounded-2xl flex items-center justify-center shadow-lg mb-6 group-hover:scale-105 transition">
                             <i class="fa-solid fa-palette text-lg"></i>
                         </div>
-                        <h3 class="font-display font-bold text-xl text-white tracking-tight">Mosaics (Erfolgsgestalter)</h3>
-                        <p class="text-zinc-400 font-light mt-3 leading-relaxed text-sm">
-                            Vergiss frustrierendes Streak-Fehlverhalten. Mit jeder geschafften Aufgabe kippt hunderprozentig geräuscharm eine Kachel um und enthüllt allmählich ein individuelles visuelles Farbkunstwerk auf deinem iPhone. Ästhetische Motivation, die dich beruhigt.
+                        <h3 class="font-display font-bold text-xl text-white tracking-tight">
+                            Mosaics (Gamification ohne Druck)
+                        </h3>
+                        <p class="text-zinc-400 font-light mt-3 text-xs sm:text-sm leading-relaxed">
+                            Keine stressigen Streaks, die bei Krankheit abreißen. Wer eine Aufgabe erledigt, dreht direkt auf der Karte eine Mosaik-Kachel um. So bauen Nutzer mit jeder kleinen Tat wunderschöne, visuelle Kunstwerke auf. Ein Belohnungssystem, das Dopamin liefert, statt Druck zu machen.
                         </p>
                     </div>
-                    <div class="flex gap-2 mt-6 border-t border-white/[0.05] pt-4 text-[10px] uppercase font-mono font-bold">
-                        <span class="px-2.5 py-1 rounded-full bg-zinc-900 border border-white/5 text-brand-lavender">GAMIFICATION REDEFINED</span>
+                    <div class="flex flex-wrap gap-2 mt-6 border-t border-white/[0.05] pt-4">
+                        <span class="text-[10px] font-bold font-mono tracking-wider px-2.5 py-1 rounded-full bg-zinc-900 border border-white/5 text-brand-peach font-semibold">ZERO_PRESSURE_STREAKS</span>
+                        <span class="text-[10px] font-bold font-mono tracking-wider px-2.5 py-1 rounded-full bg-zinc-900 border border-white/5 text-zinc-400">CREATIVE_PROGRESS_BOARDS</span>
+                    </div>
+                </div>
+
+                <!-- Card 3: On-Device KI -->
+                <div class="md:col-span-6 bg-zinc-950/60 border border-white/[0.05] rounded-3xl p-8 relative overflow-hidden group hover:border-brand-violet/20 transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="w-11 h-11 bg-brand-violet text-white rounded-2xl flex items-center justify-center shadow-lg mb-6 group-hover:scale-105 transition">
+                            <i class="fa-solid fa-bolt text-lg"></i>
+                        </div>
+                        <h3 class="font-display font-bold text-xl text-white tracking-tight">
+                            On-Device KI & Smart Breakdown
+                        </h3>
+                        <p class="text-zinc-400 font-light mt-3 text-xs sm:text-sm leading-relaxed">
+                            Überwältigt von einer großen Aufgabe? Ein Tippen, und Apples lokale KI zerschneidet den Brocken automatisch in winzige, machbare Mikroschritte. Datum und Verben werden beim Tippen intelligent erkannt – komplett ohne Cloud-Anbindung.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 mt-6 border-t border-white/[0.05] pt-4">
+                        <span class="text-[10px] font-bold font-mono tracking-wider px-2.5 py-1 rounded-full bg-zinc-900 border border-white/5 text-brand-violet font-semibold">APPLE_NEURAL_ENGINE</span>
+                        <span class="text-[10px] font-bold font-mono tracking-wider px-2.5 py-1 rounded-full bg-zinc-900 border border-white/5 text-zinc-400 font-semibold">100% OFFLINE_PROCESSING</span>
+                    </div>
+                </div>
+
+                <!-- Card 4: Zero-Server & Geofencing -->
+                <div class="md:col-span-6 bg-zinc-950/60 border border-white/[0.05] rounded-3xl p-8 relative overflow-hidden group hover:border-brand-lavender/20 transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="w-11 h-11 bg-brand-lavender text-black rounded-2xl flex items-center justify-center shadow-lg mb-6 group-hover:scale-105 transition">
+                            <i class="fa-solid fa-map-pin text-lg"></i>
+                        </div>
+                        <h3 class="font-display font-bold text-xl text-white tracking-tight">
+                            Zero-Server Privacy & Geofencing
+                        </h3>
+                        <p class="text-zinc-400 font-light mt-3 text-xs sm:text-sm leading-relaxed">
+                            Die App läuft 100% lokal. Aufgaben synchronisieren sich über Apples eigene Erinnerungen-App. Durch lokales Geofencing weiß die App, ob du auf der Arbeit oder Zuhause bist, und schiebt automatisch die richtige Karte nach vorne. Deine Daten verlassen niemals dein iPhone.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 mt-6 border-t border-white/[0.05] pt-4">
+                        <span class="text-[10px] font-bold font-mono tracking-wider px-2.5 py-1 rounded-full bg-zinc-900 border border-white/5 text-brand-lavender font-semibold">CORELOCATION_GEOFENCES</span>
+                        <span class="text-[10px] font-bold font-mono tracking-wider px-2.5 py-1 rounded-full bg-zinc-900 border border-white/5 text-zinc-400 font-semibold">LOCAL_REMINDERS_SYNC</span>
                     </div>
                 </div>
 
             </div>
+
         </div>
     </section>
 
-    <!-- PRIVACY BY DESIGN: ZERO SERVER -->
-    <section id="privacy" class="py-24 bg-black border-y border-white/[0.06] relative overflow-hidden">
+    <!-- PRIVACY BY DESIGN: ZERO-SERVER-ARCHITEKTUR -->
+    <section class="py-24 bg-black border-y border-white/[0.06] relative overflow-hidden z-10" id="privacy">
         <div class="max-w-4xl mx-auto px-6 relative z-10">
             <div class="text-center mb-16 flex flex-col items-center gap-2">
-                <div class="w-12 h-12 bg-white/5 border border-white/10 rounded-2xl flex items-center justify-center mb-4">
-                    <i class="fa-solid fa-lock text-[#FF7DB2]"></i>
+                <div class="w-12 h-12 bg-white/5 text-white border border-white/10 rounded-2xl flex items-center justify-center mb-4 shadow-lg">
+                    <i class="fa-solid fa-lock text-brand-pink text-lg"></i>
                 </div>
-                <span class="text-xs font-mono font-bold text-brand-pink uppercase tracking-widest">KOMPROMISSLOSE PRIVATSPHÄRE</span>
-                <h2 class="font-display font-black text-3.5xl sm:text-5xl tracking-tight text-white mt-1">
+                <span class="text-xs font-mono font-bold tracking-wider text-brand-pink uppercase">KOMPROMISSLOSE DATENSICHERHEIT</span>
+                <h2 class="font-display font-black text-3.5xl sm:text-5xl tracking-tight leading-tight mt-1">
                     Zero-Server-Architektur.<br>
                     <span class="text-gradient">Was auf dem iPhone passiert, bleibt dort.</span>
                 </h2>
-                <p class="text-zinc-500 font-light mt-3 max-w-xl text-center text-sm">
-                    Wir hosten keinen Server, tracken keine Benutzeraktivitäten und speichern keine Tasks. Deine private Produktivität geht niemanden außer dir selbst etwas an.
+                <p class="text-zinc-550 font-light mt-3 max-w-xl text-center text-sm">
+                    Wir hosten keinen Server, tracken keine Benutzeraktivitäten und speichern keine Aufgaben. Deine private Produktivität geht niemanden außer dir selbst etwas an.
                 </p>
             </div>
 
             <div class="bg-white/[0.02] border border-white/[0.08] p-8 md:p-12 rounded-[32px] backdrop-blur-xl">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
-                    
-                    <div class="flex flex-col gap-6 justify-between">
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-10 items-stretch">
+                  
+                    <div class="md:col-span-7 flex flex-col gap-6 justify-between text-left">
                         <div class="flex flex-col gap-3">
-                            <h3 class="font-display font-semibold text-white text-lg flex items-center gap-2">
-                                <i class="fa-solid fa-house-laptop text-brand-peach text-sm"></i>
-                                Lokal an Ort und Stelle
+                            <h3 class="font-display font-semibold text-lg text-white flex items-center gap-2.5">
+                                <i class="fa-solid fa-database text-brand-peach"></i>
+                                <span>Lokal an Ort und Stelle</span>
                             </h3>
-                            <p class="text-zinc-400 text-sm leading-relaxed font-light">
+                            <p class="text-zinc-400 font-light leading-relaxed text-xs sm:text-sm">
                                 Sowohl deine Spracheingaben, dein Geofencing, als auch deine Notizen werden zu 100% lokal on-device verarbeitet. Keine Standorte, keine Cookies und keine Cloud-Tracking Scripts.
                             </p>
                         </div>
+                        
                         <div class="h-[1px] bg-white/[0.08] w-full"></div>
+                        
                         <div class="flex flex-col gap-3">
-                            <h3 class="font-display font-semibold text-white text-lg flex items-center gap-2">
-                                <i class="fa-solid fa-cloud text-brand-violet text-sm"></i>
-                                Integrierter Apple iCloud Sync
+                            <h3 class="font-display font-semibold text-lg text-white flex items-center gap-2.5">
+                                <i class="fa-solid fa-shield-halved text-brand-violet"></i>
+                                <span>Integrierter Apple iCloud Sync</span>
                             </h3>
-                            <p class="text-zinc-400 text-sm leading-relaxed font-light">
+                            <p class="text-zinc-400 font-light leading-relaxed text-xs sm:text-sm">
                                 Sämtliche Backups und der automatische Abgleich zwischen Mac, iPad und iPhone laufen unkompliziert über deine private, komplett verschlüsselte iCloud (CloudKit). Keine Drittanbieter-Registrierung nötig.
                             </p>
                         </div>
                     </div>
 
-                    <div class="bg-zinc-950/60 border border-white/[0.05] p-6 rounded-2xl flex flex-col justify-between relative overflow-hidden min-h-[220px]">
+                    <!-- Right graphics -->
+                    <div class="md:col-span-5 bg-zinc-950/60 border border-white/[0.05] p-6 rounded-2xl flex flex-col justify-between relative overflow-hidden min-h-[220px]">
                         <div class="flex justify-between items-center text-[9px] font-mono text-zinc-500 uppercase tracking-widest">
                             <span>AES_256_ACTIVE</span>
                             <span class="text-brand-pink font-bold">● CLOUDKIT SYNCED</span>
                         </div>
 
                         <div class="my-6 flex flex-col items-center justify-center gap-3">
-                            <div class="w-14 h-14 rounded-full border border-white/5 flex items-center justify-center bg-black/40">
-                                <i class="fa-solid fa-lock text-gradient text-xl animate-pulse"></i>
+                            <div class="w-14 h-14 rounded-full border border-white/5 flex items-center justify-center relative bg-black/40">
+                                <i class="fa-solid fa-lock text-gradient text-lg animate-pulse"></i>
                             </div>
                             <span class="text-[10px] font-mono tracking-widest text-[#FF7DB2] font-bold uppercase">Zero Third Parties</span>
                         </div>
 
-                        <p class="text-[9px] font-mono text-brand-violet bg-brand-violet/10 p-2 rounded-xl border border-[#B084F9]/20 text-center leading-normal">
+                        <div class="text-[9px] font-mono text-brand-violet bg-brand-violet/10 p-2 rounded-xl border border-brand-violet/20 text-center leading-normal">
                             Keine künstlichen Subscriptions für externe Cloud-KIs nötig.
-                        </p>
+                        </div>
                     </div>
 
                 </div>
@@ -672,71 +734,70 @@ export const LANDING_PAGE_HTML_TEMPLATE = `<!DOCTYPE html>
         </div>
     </section>
 
-    <!-- FAQ SECTION WITH COLLAPSIBLE -->
-    <section id="faq" class="py-20 md:py-28">
+    <!-- FAQ SECTION -->
+    <section class="py-20 md:py-28 relative z-10" id="faq">
         <div class="max-w-4xl mx-auto px-6">
             
             <div class="text-center max-w-2xl mx-auto mb-16">
-                <span class="text-xs font-bold font-mono tracking-widest uppercase text-brand-peach bg-brand-peach/10 border border-brand-peach/10 px-3 py-1 rounded-full">Häufige Fragen</span>
-                <h2 class="font-display font-black text-3.5xl sm:text-4xl text-white mt-4">
+                <span class="text-[10px] font-bold uppercase tracking-widest text-brand-peach bg-brand-peach/10 border border-brand-peach/20 px-3.5 py-1.5 rounded-full inline-block">
+                    HÄUFIGE FRAGEN
+                </span>
+                <h2 class="font-display font-black text-3.5xl sm:text-4xl tracking-tight text-white mt-4 leading-tight">
                     Häufig gestellte Fragen (FAQ).
                 </h2>
             </div>
 
             <div class="flex flex-col gap-4">
                 
-                <!-- FAQ Item 1 -->
-                <div class="bg-zinc-900/60 border border-white/[0.04] rounded-2xl overflow-hidden">
-                    <button onclick="toggleFaqIndex(1)" class="w-full text-left px-6 py-5 flex items-center justify-between font-display font-bold text-base md:text-lg text-white hover:text-brand-pink transition-all">
-                        <span>Wie schützt mich der Reality-Check vor Überplanung?</span>
-                        <i class="fa-solid fa-chevron-down text-zinc-500 text-sm transition" id="faq-chevron-1"></i>
+                <div class="bg-zinc-900/60 border border-white/[0.04] rounded-2xl overflow-hidden transition-all duration-300">
+                    <button onclick="toggleFaqIndex(0)" class="w-full text-left px-6 py-5 flex justify-between items-center font-display font-bold text-sm sm:text-base md:text-lg text-zinc-100 hover:text-brand-pink transition cursor-pointer">
+                        <span>Wie schützt mich das Guided Deck vor Stress im Alltag?</span>
+                        <i id="faq-chevron-0" class="fa-solid fa-chevron-down text-zinc-500 text-sm transition"></i>
                     </button>
-                    <div id="faq-ans-1" class="hidden px-6 pb-6 text-zinc-400 font-light leading-relaxed text-sm md:text-base border-t border-white/[0.04] pt-3">
-                        Azyr analysiert vollautomatisch deine lokalen Apple Kalender-Termine direkt auf dem Gerät. Wenn du Aufgaben mit einer geschätzten Dauer von 4 Stunden einträgst, aber dein Kalender zwischen den Meetings am Tag nur ein Zeitfenster von 2 Stunden hergibt, warnt dich die App proaktiv. Du wirst sanft darauf hingewiesen, dass deine Pläne unrealistisch sind, bevor du in die Überlastung läufst.
+                    <div id="faq-ans-0" class="hidden px-6 pb-6 text-zinc-400 font-light leading-relaxed text-xs sm:text-sm md:text-base border-t border-white/[0.04] pt-3">
+                        Indem es dich vor der sogenannten 'Analysis Paralysis' bewahrt. Anstatt dich mit einer endlosen, bedrohlichen Liste zu konfrontieren, isoliert Azyr immer nur eine einzige Aufgabe als Premium-Karte auf dem Bildschirm. Du entscheidest sofort: Jetzt erledigen (Swipe rechts) oder später anpacken (Swipe links). Keine Ablenkung, nur reine Fokussierung.
                     </div>
                 </div>
 
-                <!-- FAQ Item 2 -->
-                <div class="bg-zinc-900/60 border border-white/[0.04] rounded-2xl overflow-hidden">
-                    <button onclick="toggleFaqIndex(2)" class="w-full text-left px-6 py-5 flex items-center justify-between font-display font-bold text-base md:text-lg text-white hover:text-brand-pink transition-all">
-                        <span>Wie funktioniert das Geofencing, ohne meine Daten zu teilen?</span>
-                        <i class="fa-solid fa-chevron-down text-zinc-500 text-sm transition" id="faq-chevron-2"></i>
+                <div class="bg-zinc-900/60 border border-white/[0.04] rounded-2xl overflow-hidden transition-all duration-300">
+                    <button onclick="toggleFaqIndex(1)" class="w-full text-left px-6 py-5 flex justify-between items-center font-display font-bold text-sm sm:text-base md:text-lg text-zinc-100 hover:text-brand-pink transition cursor-pointer">
+                        <span>Warum brechen meine Mosaik-Kunstwerke nicht ab, wenn ich krank bin?</span>
+                        <i id="faq-chevron-1" class="fa-solid fa-chevron-down text-zinc-500 text-sm transition"></i>
                     </button>
-                    <div id="faq-ans-2" class="hidden px-6 pb-6 text-zinc-400 font-light leading-relaxed text-sm md:text-base border-t border-white/[0.04] pt-3">
-                        Azyr nutzt die native On-Device Geofencing-Technologie von iOS (CoreLocation API). Die Definition deiner Arbeits- und Wohnorte sowie die Abfragen, wo du dich gerade aufhältst, laufen zu 100% lokal auf dem Hauptprozessor deines iPhones. Es gibt keinen Analytics-Server, der Standorte aufzeichnet oder an Werbepartner sendet.
+                    <div id="faq-ans-1" class="hidden px-6 pb-6 text-zinc-400 font-light leading-relaxed text-xs sm:text-sm md:text-base border-t border-white/[0.04] pt-3">
+                        Weil Azyr auf stressige Streaks verzichtet. Wer krank ist, macht einfach Pause. Wenn du zurückkehrst, baust du an deinem begonnenen Mosaik-Kunstwerk weiter. Jede erledigte Aufgabe schaltet eine farbige Kachel frei. So belohnst du dich visuell ohne künstliche Verlust-Angst.
                     </div>
                 </div>
 
-                <!-- FAQ Item 3 -->
-                <div class="bg-zinc-900/60 border border-white/[0.04] rounded-2xl overflow-hidden">
-                    <button onclick="toggleFaqIndex(3)" class="w-full text-left px-6 py-5 flex items-center justify-between font-display font-bold text-base md:text-lg text-white hover:text-brand-pink transition-all">
-                        <span>Wie funktioniert der Synchronisationsprozess über iCloud?</span>
-                        <i class="fa-solid fa-chevron-down text-zinc-500 text-sm transition" id="faq-chevron-3"></i>
+                <div class="bg-zinc-900/60 border border-white/[0.04] rounded-2xl overflow-hidden transition-all duration-300">
+                    <button onclick="toggleFaqIndex(2)" class="w-full text-left px-6 py-5 flex justify-between items-center font-display font-bold text-sm sm:text-base md:text-lg text-zinc-100 hover:text-brand-pink transition cursor-pointer">
+                        <span>Läuft die Smart-Breakdown KI wirklich ohne Internetverbindung?</span>
+                        <i id="faq-chevron-2" class="fa-solid fa-chevron-down text-zinc-500 text-sm transition"></i>
                     </button>
-                    <div id="faq-ans-3" class="hidden px-6 pb-6 text-zinc-400 font-light leading-relaxed text-sm md:text-base border-t border-white/[0.04] pt-3">
-                        Deine Daten werden verchlüsselt in deiner persönlichen iCloud abgelegt (Apple CloudKit). Das bedeutet, dass deine Aufgaben auf all deinen Apple-Geräten wie iPhone, iPad und Mac synchronisiert werden können, ohne dass du ein separates Benutzerkonto erstellen musst. Weder wir noch Dritte haben jemals physikalischen Zugriff auf diese Cloud-Nischen.
+                    <div id="faq-ans-2" class="hidden px-6 pb-6 text-zinc-400 font-light leading-relaxed text-xs sm:text-sm md:text-base border-t border-white/[0.04] pt-3">
+                        Ja, zu 100%. Azyr nutzt die lokale Apple CoreML-Technologie und die Neural Engine deines iPhones. Deine Sätze werden direkt auf dem nativen Prozessor analysiert. Wir senden keine Texte an Server, weshalb die Aufteilung auch im Flugmodus funktioniert und deine Privatsphäre absolut intakt bleibt.
                     </div>
                 </div>
 
-                <!-- FAQ Item 4 -->
-                <div class="bg-zinc-900/60 border border-white/[0.04] rounded-2xl overflow-hidden">
-                    <button onclick="toggleFaqIndex(4)" class="w-full text-left px-6 py-5 flex items-center justify-between font-display font-bold text-base md:text-lg text-white hover:text-brand-pink transition-all">
-                        <span>Gibt es Abonnements oder laufende API-Kosten?</span>
-                        <i class="fa-solid fa-chevron-down text-zinc-500 text-sm transition" id="faq-chevron-4"></i>
+                <div class="bg-zinc-900/60 border border-white/[0.04] rounded-2xl overflow-hidden transition-all duration-300">
+                    <button onclick="toggleFaqIndex(3)" class="w-full text-left px-6 py-5 flex justify-between items-center font-display font-bold text-sm sm:text-base md:text-lg text-zinc-100 hover:text-brand-pink transition cursor-pointer">
+                        <span>Wie funktioniert die Synchronisation ohne eigenen Server?</span>
+                        <i id="faq-chevron-3" class="fa-solid fa-chevron-down text-zinc-500 text-sm transition"></i>
                     </button>
-                    <div id="faq-ans-4" class="hidden px-6 pb-6 text-zinc-400 font-light leading-relaxed text-sm md:text-base border-t border-white/[0.04] pt-3">
-                        Nein, es gibt keine monatlichen Subscriptions. Da Azyr vollständig On-Device arbeitet, fallen für uns keine teuren Serverkosten für Rechenleistung an. Das geben wir direkt an dich weiter: Du lädst die App einmalig herunter und nutzt sie unbegrenzt.
+                    <div id="faq-ans-3" class="hidden px-6 pb-6 text-zinc-400 font-light leading-relaxed text-xs sm:text-sm md:text-base border-t border-white/[0.04] pt-3">
+                        Azyr synchronisiert deine Aufgaben direkt über Apples eigene, iCloud-basierte Erinnerungen-Schnittstelle. Es gibt keine Drittanbieter-Registrierung und keinen externen Datenbankserver. Deine Daten reisen ausschließlich verschlüsselt in deiner persönlichen iCloud-Umgebung.
                     </div>
                 </div>
 
             </div>
+
         </div>
     </section>
 
-    <!-- FINAL CTA -->
-    <section id="download" class="relative py-24 border-t border-white/[0.06] overflow-hidden">
+    <!-- STORE DOWNLOAD CTA -->
+    <section class="py-24 relative overflow-hidden z-10 border-t border-white/[0.06]" id="download">
         <div class="absolute inset-0 bg-black"></div>
-        <div class="absolute -top-48 left-1/2 -translate-x-1/2 w-[40rem] h-[40rem] bg-brand-pink/10 rounded-full filter blur-[140px] pointer-events-none"></div>
+        <div class="absolute -top-48 left-1/2 -translate-x-1/2 w-[40rem] h-[40rem] bg-brand-pink/5 rounded-full filter blur-[140px] pointer-events-none"></div>
 
         <div class="max-w-4xl mx-auto px-6 relative z-10 text-center">
             <div class="max-w-2xl mx-auto flex flex-col items-center gap-6">
@@ -745,18 +806,18 @@ export const LANDING_PAGE_HTML_TEMPLATE = `<!DOCTYPE html>
                     <img src="logo.png" alt="Azyr Logo" class="w-full h-full object-cover">
                 </div>
 
-                <span class="text-[10px] font-mono font-bold tracking-widest text-[#FF7DB2] bg-brand-pink/10 border border-[#FF7DB2]/20 px-3.5 py-1.5 rounded-full">
-                    HOL DIR DIE FREIHEIT ZURÜCK
+                <span class="text-[10px] font-mono font-bold tracking-widest text-[#FF7DB2] bg-brand-pink/10 border border-brand-pink/20 px-3.5 py-1.5 rounded-full uppercase">
+                    HOL DIR DEINE ZEIT ZURÜCK
                 </span>
-                <h2 class="font-display font-black text-4xl sm:text-5xl md:text-6.5xl text-white tracking-tight leading-none animate-pulse">
-                    Produktivität, die aufatmen lässt.
+                <h2 class="font-display font-black text-4xl sm:text-5xl md:text-6.5xl text-white tracking-tight leading-none">
+                    Azyr für iOS herunterladen.
                 </h2>
-                <p class="text-zinc-400 font-light leading-relaxed text-sm sm:text-base mt-2">
-                    Azyr ist komplett frei von Tracking, Benutzerkonten und monatlichen Gebühren. Installiere dir deinen lokalen Begleiter noch heute kostenlos im App Store.
+                <p class="text-zinc-400 font-light leading-relaxed text-sm sm:text-base">
+                    Azyr ist komplett frei von externen Trackern, Benutzerkonten und monatlichen Abogebühren. Installiere dir deinen lokalen Begleiter kostenlos auf deinem Gerät.
                 </p>
 
                 <div class="flex flex-col sm:flex-row items-center gap-4 mt-6 w-full justify-center">
-                    <a href="https://apps.apple.com" target="_blank" class="inline-flex items-center justify-center gap-3.5 px-8 py-4.5 bg-white text-black font-semibold rounded-2xl w-full sm:w-auto shadow-2xl">
+                    <a href="https://apps.apple.com" target="_blank" rel="noreferrer noopener" class="inline-flex items-center justify-center gap-3.5 px-8 py-4.5 bg-white text-black font-semibold rounded-2xl w-full sm:w-auto shadow-2xl transition hover:scale-[1.02] active:scale-[0.98]">
                         <i class="fa-brands fa-apple text-2xl"></i>
                         <div class="text-left leading-none text-black">
                             <p class="text-[9px] uppercase font-bold text-black/60 tracking-wider">Laden im App Store für</p>
@@ -765,10 +826,10 @@ export const LANDING_PAGE_HTML_TEMPLATE = `<!DOCTYPE html>
                     </a>
                 </div>
 
-                <div class="flex flex-wrap justify-center gap-6 text-[10px] text-zinc-500 mt-8 font-mono border-t border-white/[0.08] pt-6 w-full uppercase tracking-wider font-bold">
-                    <span><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i>Keine Subscriptions</span>
-                    <span><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i>100% iCloud Backup</span>
-                    <span><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i>Kein Daten-Tracking</span>
+                <div class="flex flex-wrap justify-center gap-6 text-[10px] text-zinc-500 mt-8 border-t border-white/[0.08] pt-6 w-full font-mono uppercase tracking-wider font-bold">
+                    <span class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-emerald-400"></i> Kein Abonnement</span>
+                    <span class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-emerald-400"></i> Verschlüsselter iCloud Sync</span>
+                    <span class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-emerald-400"></i> Kein Daten-Tracking</span>
                 </div>
             </div>
         </div>
@@ -779,21 +840,26 @@ export const LANDING_PAGE_HTML_TEMPLATE = `<!DOCTYPE html>
         <div class="max-w-6xl mx-auto px-6">
             <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 border-b border-white/[0.06] pb-10 mb-10">
                 
-                <div class="flex flex-col gap-3">
+                <div class="flex flex-col gap-3 text-left">
                     <div class="flex items-center gap-2.5">
-                        <div class="relative w-6 h-6 rounded bg-neutral-900 border border-white/10 flex items-center justify-center overflow-hidden">
+                        <div class="relative w-6 h-6 rounded bg-neutral-900 flex items-center justify-center overflow-hidden border border-white/10">
                             <img src="logo.png" alt="Azyr Logo" class="w-full h-full object-cover">
                         </div>
-                        <span class="font-display font-bold text-sm text-white tracking-tight">azyr.app</span>
+                        <span class="font-display font-bold text-sm text-white tracking-tight">Azyr</span>
                     </div>
-                    <p class="max-w-xs font-light text-zinc-500 leading-normal">
-                        Ein privates On-Device Produktivitätsprojekt von Dominik Kocsordi. Entwickelt für kognitive Balance und gesunden, biologisch ausgewogenen Arbeitsalltag.
+                    <p class="max-w-xs font-light text-zinc-600 leading-normal">
+                        Ein privates On-Device Produktivitätsprojekt von Dominik Kocsordi. Entwickelt für kognitive Balance und einen stressfreien Arbeitsalltag.
                     </p>
                 </div>
 
-                <div class="flex flex-col gap-2">
+                <div class="flex flex-col gap-2 text-left">
                     <span class="text-[10px] font-semibold text-zinc-500 uppercase tracking-widest">Support & Feedback</span>
-                    <a href="mailto:hello@azyr.app" class="font-semibold text-zinc-300 hover:text-white transition">hello@azyr.app</a>
+                    <button onclick="navigator.clipboard.writeText('hello@azyr.app'); alert('hello@azyr.app kopiert!');" class="flex items-center gap-2 font-semibold text-zinc-300 hover:text-white transition focus:outline-none cursor-pointer">
+                        <span>hello@azyr.app</span>
+                        <span class="text-[9px] px-1.5 py-0.5 rounded bg-zinc-900 text-zinc-400 border border-white/5 font-mono">
+                            Kopieren
+                        </span>
+                    </button>
                 </div>
 
                 <div class="flex flex-wrap gap-x-8 gap-y-3">
@@ -805,250 +871,234 @@ export const LANDING_PAGE_HTML_TEMPLATE = `<!DOCTYPE html>
             </div>
 
             <div class="flex flex-col sm:flex-row justify-between items-center gap-4 text-[10px] text-zinc-600">
-                <span>&copy; 2026 azyr.app / Dominik Kocsordi. Alle Rechte vorbehalten.</span>
+                <span>&copy; <span id="current-year">2026</span> azyr.app / Dominik Kocsordi. Alle Rechte vorbehalten.</span>
                 <span>Konstruiert im Einklang mit den Apple Human Interface Guidelines.</span>
             </div>
         </div>
     </footer>
 
-
-    <!-- INTERACTIVE STATES CLIENT SCRIPTS (SIMULATION LOGIC) -->
+    <!-- INTERACTIVE SIMULATOR SCRIPT LOGIC -->
     <script>
-        // Active states objects
-        let activeUsp = 'reality';
-        let realityOptimized = false;
-        let currentLocation = 'office';
-        let focusTimerActive = true;
-        let focusTimeLeft = 1499;
-        let focusTimerInterval = null;
-        let revealedTiles = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
-        let mtask1 = false;
-        let mtask2 = false;
+        document.getElementById('current-year').innerText = new Date().getFullYear();
 
-        const officeTasks = [
-            { id: "o1", title: "Kunden-Präsentation halten", done: false },
-            { id: "o2", title: "Projektbericht ausdrucken", done: false },
-            { id: "o3", title: "Team-Protokoll schreiben", done: true }
+        // State Machine
+        let activeUspKey = 'deck';
+        let deckIndex = 0;
+        let swipeInAction = false;
+        let revealedTiles = [0, 1, 2, 3, 5, 6, 7, 10, 12, 13, 14, 15, 18, 19, 23, 24, 25, 29, 30];
+        let breakingDownState = 0; // 0: Init, 1: Loading, 2: Done
+        let currentLoc = 'office';
+
+        const DECK_CARDS = [
+            { title: "Schnittstellen-Architektur aufskizzieren", time: "45 Min", context: "📍 Büro-Fokus" },
+            { title: "Apple-Review Feedback einarbeiten", time: "30 Min", context: "💻 Design" },
+            { title: "Steuerbelege in iCloud ablegen", time: "15 Min", context: "💼 Routine" },
+            { title: "Atemübung am Abend machen", time: "10 Min", context: "🌿 Erholung" }
         ];
 
-        const homeTasks = [
-            { id: "h1", title: "30 Min. Dehnen & Atemübungen", done: false },
-            { id: "h2", title: "Fachlektüre: Mindful Tech", done: false },
-            { id: "h3", title: "Gesundes Abendessen kochen", done: true }
-        ];
-
-        // 1. Selector tab handler
-        function siteSelectUsp(uspKey) {
-            activeUsp = uspKey;
+        // 1. Selector logic
+        function selectUsp(key) {
+            activeUspKey = key;
             
-            // Toggle highlight selector buttons on page
-            document.querySelectorAll('.site-usp-btn').forEach(btn => {
-                btn.className = "site-usp-btn text-left p-6 rounded-2xl border transition-all duration-300 flex gap-5 items-start bg-transparent border-white/[0.04]";
-                const iconBox = btn.querySelector('.w-11');
-                if(iconBox) {
-                    iconBox.className = "w-11 h-11 rounded-1.5xl shrink-0 flex items-center justify-center bg-neutral-900 text-zinc-400 text-lg";
-                }
-            });
-            
-            const activeBtn = document.getElementById('usp-btn-' + uspKey);
-            if(activeBtn) {
-                let accentColor = "brand-pink";
-                let borderColor = "border-brand-pink/30";
-                let shadowColor = "shadow-[0_0_20px_rgba(255,125,178,0.06)]";
-                if(uspKey === 'geofence') { accentColor = "bg-brand-peach text-black"; borderColor = "border-brand-peach/30"; shadowColor = "shadow-[0_0_20px_rgba(255,158,125,0.06)]"; }
-                else if(uspKey === 'focus') { accentColor = "bg-brand-violet text-white"; borderColor = "border-brand-violet/30"; shadowColor = "shadow-[0_0_20px_rgba(176,132,249,0.06)]"; }
-                else if(uspKey === 'mosaic') { accentColor = "bg-brand-lavender text-black"; borderColor = "border-brand-lavender/30"; shadowColor = "shadow-[0_0_20px_rgba(194,155,255,0.06)]"; }
-                else { accentColor = "bg-brand-pink text-black"; }
-
-                activeBtn.className = "site-usp-btn text-left p-6 rounded-2xl border transition-all duration-300 flex gap-5 items-start bg-neutral-900/55 " + borderColor + " " + shadowColor;
-                const activeIconBox = activeBtn.querySelector('.w-11');
-                if(activeIconBox) {
-                    activeIconBox.className = "w-11 h-11 rounded-1.5xl shrink-0 flex items-center justify-center text-lg " + accentColor;
-                }
-            }
-
-            // Toggle screens
-            document.querySelectorAll('.sim-view').forEach(view => view.classList.add('hidden'));
-            const matchedView = document.getElementById('view-' + uspKey);
-            if(matchedView) {
-                matchedView.classList.remove('hidden');
-            }
-
-            // Init timers if needed
-            if(uspKey === 'focus') {
-                startFocusTimerEmulation();
-            } else {
-                stopFocusTimerEmulation();
-            }
-        }
-
-        // 2. Reality optimization triggers
-        function simOptimizeReality() {
-            realityOptimized = true;
-            document.getElementById('task-r1').className = "p-2.5 rounded-xl border border-white/[0.02] bg-zinc-950/30 text-zinc-600 scale-95 transition-all duration-500";
-            document.getElementById('sim-reality-warning').innerHTML = '<i class="fa-solid fa-circle-check text-emerald-400 mr-1.5"></i><strong>Plan ausgeglichen!</strong> Landingpage-Task auf morgen verschoben.';
-            document.getElementById('sim-reality-warning').className = "bg-emerald-500/10 border border-emerald-500/20 p-2.5 rounded-xl text-[9.5px] text-emerald-400 transition-all";
-            document.getElementById('btn-optimize-reality').className = "bg-zinc-800 text-zinc-400 font-bold text-[10px] py-1.5 px-2 rounded-xl transition cursor-pointer text-center";
-            document.getElementById('btn-optimize-reality').innerText = "Regulärer Rhythmus aktiv";
-            document.getElementById('btn-optimize-reality').disabled = true;
-
-            // Trigger toast
-            triggerSimToast("Burnout geschützt! Plan ausgeglichen ✨");
-        }
-
-        // 3. Geofence toggle logic
-        function simSetContext(contextKey) {
-            currentLocation = contextKey;
-            
-            const btnOffice = document.getElementById('btn-context-office');
-            const btnHome = document.getElementById('btn-context-home');
-            
-            if(contextKey === 'office') {
-                btnOffice.className = "py-1.5 px-2 rounded-lg text-xs font-bold bg-brand-peach text-black";
-                btnHome.className = "py-1.5 px-2 rounded-lg text-xs font-bold text-zinc-400";
-                document.getElementById('context-list-title').innerText = "BÜRO TASKS (3)";
-            } else {
-                btnHome.className = "py-1.5 px-2 rounded-lg text-xs font-bold bg-brand-peach text-black";
-                btnOffice.className = "py-1.5 px-2 rounded-lg text-xs font-bold text-zinc-400";
-                document.getElementById('context-list-title').innerText = "ZUHAUSE TASKS (3)";
-            }
-
-            renderGeofenceTasks();
-        }
-
-        function renderGeofenceTasks() {
-            const container = document.getElementById('context-tasks-container');
-            const collection = currentLocation === 'office' ? officeTasks : homeTasks;
-            let output = '';
-
-            collection.forEach(task => {
-                const checkedClass = task.done ? 'bg-brand-peach border-brand-peach text-black' : 'border-white/20';
-                const crossTextClass = task.done ? 'line-through text-zinc-500' : 'text-zinc-200';
-                const opacityClass = task.done ? 'opacity-45' : '';
-                const checkedIcon = task.done ? '<i class="fa-solid fa-check text-[8.5px] text-black"></i>' : '';
-
-                output += '<div class="p-2.5 bg-zinc-900 border border-white/5 rounded-xl flex items-center gap-2.5 ' + opacityClass + '">' +
-                            '<div class="w-4 h-4 rounded flex items-center justify-center border ' + checkedClass + '">' + checkedIcon + '</div>' +
-                            '<span class="text-[10.5px] ' + crossTextClass + '">' + task.title + '</span>' +
-                          '</div>';
-            });
-
-            container.innerHTML = output;
-        }
-
-        // 4. Zen focus Timer logic
-        function startFocusTimerEmulation() {
-            stopFocusTimerEmulation();
-            focusTimerActive = true;
-            focusTimerInterval = setInterval(() => {
-                if(focusTimeLeft > 0) {
-                    focusTimeLeft--;
-                    document.getElementById('sim-timer-val').innerText = formatTimerSeconds(focusTimeLeft);
+            // Toggle Active tabs content
+            ['deck', 'mosaic', 'breakdown', 'privacy'].forEach(k => {
+                const screen = document.getElementById('sim-screen-' + k);
+                const tabBtn = document.getElementById('bar-tab-' + k);
+                const sideBtn = document.getElementById('feat-btn-' + k);
+                
+                if (k === key) {
+                    if (screen) screen.classList.remove('hidden');
+                    if (tabBtn) tabBtn.className = "flex-1 py-1 px-0.5 rounded-full flex flex-col items-center gap-0.5 bg-[#25252b] text-white font-extrabold cursor-pointer";
+                    if (sideBtn) sideBtn.className = "text-left p-6 rounded-2xl transition-all duration-300 border text-white flex gap-5 items-start cursor-pointer bg-neutral-900/55 border-brand-pink/30 shadow-[0_0_25px_rgba(255,125,178,0.06)]";
                 } else {
-                    focusTimeLeft = 1500;
+                    if (screen) screen.classList.add('hidden');
+                    if (tabBtn) tabBtn.className = "flex-1 py-1 px-0.5 rounded-full flex flex-col items-center gap-0.5 text-zinc-500 hover:text-zinc-300 cursor-pointer";
+                    if (sideBtn) sideBtn.className = "text-left p-6 rounded-2xl transition-all duration-300 border text-white flex gap-5 items-start cursor-pointer bg-transparent border-white/[0.03]";
                 }
-            }, 1000);
-        }
+            });
 
-        function stopFocusTimerEmulation() {
-            focusTimerActive = false;
-            clearInterval(focusTimerInterval);
-        }
-
-        function simToggleTimer() {
-            const btn = document.getElementById('btn-toggle-timer');
-            if(focusTimerActive) {
-                stopFocusTimerEmulation();
-                btn.className = "w-full py-2 px-3 rounded-xl bg-brand-violet text-white font-bold text-[10.5px] mt-auto mb-2 shadow-lg";
-                btn.innerText = "Fokus fortsetzen";
-            } else {
-                startFocusTimerEmulation();
-                btn.className = "w-full py-2 px-3 rounded-xl bg-zinc-800 text-zinc-300 font-bold text-[10.5px] mt-auto mb-2";
-                btn.innerText = "Fokus Pause";
+            if (key === 'mosaic') {
+                renderMosaicGridHtml();
             }
         }
 
-        function formatTimerSeconds(secs) {
-            let m = Math.floor(secs / 60);
-            let s = secs % 60;
-            return (m < 10 ? '0' + m : m) + ':' + (s < 10 ? '0' + s : s);
+        // 2. Deck Swiping
+        function swipeDeck(direction) {
+            if (swipeInAction) return;
+            swipeInAction = true;
+
+            const card = document.getElementById('deck-card-elm');
+            
+            if (direction === 'left') {
+                card.style.transform = 'translateX(-120px) rotate(-8deg)';
+                card.style.opacity = '0';
+                triggerSimToast("Karte zurückgestellt: Später erledigen ↩");
+            } else {
+                card.style.transform = 'translateX(120px) rotate(8deg)';
+                card.style.opacity = '0';
+                
+                // Add mosaic tile completion
+                const rand = Math.floor(Math.random() * 36);
+                if (!revealedTiles.includes(rand)) revealedTiles.push(rand);
+                
+                triggerSimToast("Haptisches Feedback: Kachel aufgedeckt! 🎨");
+            }
+
+            setTimeout(() => {
+                deckIndex = (deckIndex + 1) % DECK_CARDS.length;
+                document.getElementById('deck-card-title').innerText = '"' + DECK_CARDS[deckIndex].title + '"';
+                document.getElementById('deck-card-time').innerText = DECK_CARDS[deckIndex].time;
+                document.getElementById('deck-card-ctx').innerText = DECK_CARDS[deckIndex].context;
+                
+                card.style.transform = 'scale(0.9) translateY(15px)';
+                
+                setTimeout(() => {
+                    card.style.transform = 'scale(1) translateY(0px)';
+                    card.style.opacity = '1';
+                    swipeInAction = false;
+                }, 150);
+            }, 600);
         }
 
-        // 5. Mosaic grid logic
-        function renderMosaicGrid() {
-            const grid = document.getElementById('sim-mosaic-grid');
+        // 3. Mosaic Visual builder inside simulator
+        function renderMosaicGridHtml() {
+            const grid = document.getElementById('mosaic-grid-container');
+            const countLabel = document.getElementById('mosaic-count-label');
+            countLabel.innerText = revealedTiles.length + " von 36 gelegt";
+
             let output = '';
             for (let i = 0; i < 36; i++) {
                 const isRevealed = revealedTiles.includes(i);
-                let tileColor = "bg-[#18181c] border border-white/[0.04]";
-                if(isRevealed) {
+                let tileColor = "bg-[#141416] border border-white/[0.02]";
+                if (isRevealed) {
                     const row = Math.floor(i / 6);
-                    if (row === 0) tileColor = "bg-brand-peach shadow-[0_0_8px_rgba(255,158,125,0.25)]";
-                    else if (row === 1) tileColor = "bg-brand-pink shadow-[0_0_8px_rgba(255,125,178,0.25)]";
-                    else if (row === 2) tileColor = "bg-brand-violet shadow-[0_0_8px_rgba(176,132,249,0.25)]";
-                    else tileColor = "bg-brand-lavender shadow-[0_0_8px_rgba(194,155,255,0.25)]";
+                    if (row === 0) tileColor = "bg-[#FF9E7D] shadow-[0_0_8px_rgba(255,158,125,0.25)]";
+                    else if (row === 1) tileColor = "bg-[#FF7DB2] shadow-[0_0_8px_rgba(255,125,178,0.25)]";
+                    else if (row === 2) tileColor = "bg-[#B084F9] shadow-[0_0_8px_rgba(176,132,249,0.25)]";
+                    else tileColor = "bg-[#C29BFF] shadow-[0_0_8px_rgba(194,155,255,0.25)]";
                 }
-                output += '<div class="h-5 rounded-md transition-all duration-300 ' + tileColor + '"></div>';
+                output += '<div onclick="toggleTileHtml(' + i + ')" class="aspect-square rounded-sm cursor-pointer transition-all duration-350 ' + tileColor + '"></div>';
             }
             grid.innerHTML = output;
         }
 
-        function simCheckMosaicTask(num) {
-            let completed = false;
-            let tileIdx = num === 1 ? 18 : 19;
-            const btn = document.getElementById('sim-mtask-' + num);
-            const checkbox = document.getElementById('sim-mcheck-' + num);
-
-            if(num === 1) {
-                mtask1 = !mtask1; completed = mtask1;
+        function toggleTileHtml(idx) {
+            if (revealedTiles.includes(idx)) {
+                revealedTiles = revealedTiles.filter(t => t !== idx);
             } else {
-                mtask2 = !mtask2; completed = mtask2;
+                revealedTiles.push(idx);
+                triggerSimToast("Kachel platziert. Ästhetischer Fortschritt wächst.");
             }
-
-            if(completed) {
-                btn.className = "w-full p-2 rounded-xl text-left border border-white/[0.02] bg-zinc-950/40 text-zinc-500 scale-[0.98] transition-all duration-300";
-                checkbox.className = "w-3.5 h-3.5 rounded bg-brand-lavender border-brand-lavender flex items-center justify-center text-black text-[9px]";
-                checkbox.innerHTML = '<i class="fa-solid fa-check text-black"></i>';
-                if(!revealedTiles.includes(tileIdx)) revealedTiles.push(tileIdx);
-                
-                triggerSimToast("Haptisches Feedback: Kachel " + tileIdx + " aufgedeckt! 🎨");
-            } else {
-                btn.className = "w-full p-2 rounded-xl text-left border border-white/5 bg-zinc-900 flex justify-between items-center text-[10px] transition-all";
-                checkbox.className = "w-3.5 h-3.5 rounded border border-white/20";
-                checkbox.innerHTML = '';
-                revealedTiles = revealedTiles.filter(t => t !== tileIdx);
-            }
-
-            renderMosaicGrid();
+            renderMosaicGridHtml();
         }
 
-        // Toast alert helper
-        function triggerSimToast(text) {
+        function resetMosaicHtml() {
+            revealedTiles = [0, 1, 2, 3, 5, 6, 7, 10, 12, 13, 14, 15, 18, 19, 23, 24, 25, 29, 30];
+            renderMosaicGridHtml();
+        }
+
+        // 4. Smart Breakdown HTML Animation Emulation
+        function triggerBreakdownHtml() {
+            const container = document.getElementById('is-breaking-container');
+            const actionBtn = document.getElementById('breakdown-action-btn');
+
+            container.innerHTML = '<div class="flex flex-col items-center justify-center gap-2 text-center py-4">' +
+                '<div class="w-8 h-8 rounded-full border-2 border-t-[#B084F9] border-r-[#FF7DB2] animate-spin"></div>' +
+                '<span class="text-[9px] font-mono text-zinc-400">Analysiere Verben & Daten...</span>' +
+                '</div>';
+            
+            actionBtn.style.display = 'none';
+
+            setTimeout(() => {
+                container.innerHTML = '<div class="flex flex-col gap-2 pt-2">' +
+                    '<span class="text-[8.5px] font-bold text-zinc-500 uppercase font-mono tracking-widest mb-1">Miku-Tasks:</span>' +
+                    '<div onclick="toggleStepHtml(this)" class="flex items-center gap-2.5 bg-black/45 p-2 rounded-xl border border-white/5 cursor-pointer">' +
+                      '<div class="w-4 h-4 rounded border border-zinc-700 flex items-center justify-center"></div>' +
+                      '<span class="text-[10px] text-zinc-200">Gliederung auf Papier kritzeln</span>' +
+                    '</div>' +
+                    '<div onclick="toggleStepHtml(this)" class="flex items-center gap-2.5 bg-black/45 p-2 rounded-xl border border-white/5 cursor-pointer">' +
+                      '<div class="w-4 h-4 rounded border border-zinc-700 flex items-center justify-center"></div>' +
+                      '<span class="text-[10px] text-zinc-200">Erste 3 Folien grob aufbauen</span>' +
+                    '</div>' +
+                    '<div onclick="toggleStepHtml(this)" class="flex items-center gap-2.5 bg-black/45 p-2 rounded-xl border border-white/5 cursor-pointer">' +
+                      '<div class="w-4 h-4 rounded border border-zinc-700 flex items-center justify-center"></div>' +
+                      '<span class="text-[10px] text-zinc-200 font-normal">Zahlen und Fakten einpflegen</span>' +
+                    '</div>' +
+                    '<button onclick="resetBreakdownHtml()" class="w-full bg-zinc-900 border border-white/5 text-zinc-400 font-bold py-2 rounded-xl cursor-pointer text-center text-[9px] mt-2">Zurücksetzen</button>' +
+                    '</div>';
+                
+                triggerSimToast("Apple On-Device KI: 3 Mikroschritte erstellt ✨");
+            }, 1600);
+        }
+
+        function toggleStepHtml(el) {
+            const box = el.querySelector('div');
+            const text = el.querySelector('span');
+
+            if (box.classList.contains('bg-brand-violet')) {
+                box.className = "w-4 h-4 rounded border border-zinc-700 flex items-center justify-center";
+                box.innerHTML = '';
+                text.className = "text-[10px] text-zinc-200";
+            } else {
+                box.className = "w-4 h-4 rounded bg-brand-violet border-brand-violet flex items-center justify-center text-black text-[9px]";
+                box.innerHTML = '<i class="fa-solid fa-check text-black text-[8px]"></i>';
+                text.className = "text-[10px] line-through text-zinc-550";
+            }
+        }
+
+        function resetBreakdownHtml() {
+            const container = document.getElementById('is-breaking-container');
+            const actionBtn = document.getElementById('breakdown-action-btn');
+
+            container.innerHTML = '<p class="text-[10px] text-zinc-500 text-center leading-normal font-light">Zerlege diesen Block mit lokaler KI völlig datensicher in kleine Mikroschritte.</p>';
+            actionBtn.style.display = 'flex';
+        }
+
+        // 5. Geofencing local switch
+        function setSimLoc(loc) {
+            currentLoc = loc;
+            const cardOffice = document.getElementById('ctx-office-card');
+            const cardHome = document.getElementById('ctx-home-card');
+            const labelHome = document.getElementById('label-home-ctx');
+
+            if (loc === 'office') {
+                cardOffice.className = "p-2 rounded-xl border border-blue-500/20 bg-blue-500/5 text-white flex items-center justify-between cursor-pointer";
+                cardHome.className = "p-2 rounded-xl border border-white/5 bg-zinc-900/40 text-white flex items-center justify-between cursor-pointer opacity-55";
+                triggerSimToast("Kontext: Im Büro. Zeige geschäftliche Karten.");
+            } else {
+                cardHome.className = "p-2 rounded-xl border border-emerald-500/20 bg-emerald-500/5 text-white flex items-center justify-between cursor-pointer";
+                cardOffice.className = "p-2 rounded-xl border border-white/5 bg-zinc-900/40 text-white flex items-center justify-between cursor-pointer opacity-55";
+                triggerSimToast("Kontext: Zurück zuhause. Zeige entspannte Karten.");
+            }
+        }
+
+        // Toast Alert HTML Emulator helper
+        function triggerSimToast(msg) {
             const toast = document.getElementById('sim-toast');
-            document.getElementById('sim-toast-text').innerText = text;
+            document.getElementById('sim-toast-text').innerText = msg;
             toast.classList.remove('hidden');
             setTimeout(() => {
                 toast.classList.add('hidden');
-            }, 3000);
+            }, 2500);
         }
 
-        // Accordion index toggle
+        // Faq collapsible panel toggle
         function toggleFaqIndex(idx) {
-            const ans = document.getElementById('faq-ans-' + idx);
+            const panel = document.getElementById('faq-ans-' + idx);
             const icon = document.getElementById('faq-chevron-' + idx);
-            if(ans.classList.contains('hidden')) {
-                ans.classList.remove('hidden');
+            
+            if (panel.classList.contains('hidden')) {
+                panel.classList.remove('hidden');
                 icon.className = "fa-solid fa-chevron-up text-brand-pink text-sm transition";
             } else {
-                ans.classList.add('hidden');
+                panel.classList.add('hidden');
                 icon.className = "fa-solid fa-chevron-down text-zinc-500 text-sm transition";
             }
         }
 
-        // On document loads initialization
+        // Setup onload
         window.addEventListener('DOMContentLoaded', () => {
-            renderGeofenceTasks();
-            renderMosaicGrid();
+            renderMosaicGridHtml();
         });
     </script>
 </body>
