@@ -166,81 +166,13 @@ export const LANDING_PAGE_HTML_TEMPLATE = `<!DOCTYPE html>
                 <div class="lg:col-span-5 flex justify-center items-center relative">
                     <div class="absolute -inset-10 bg-brand-pink/5 rounded-full filter blur-2xl pointer-events-none"></div>
                     
-                    <div class="relative w-full max-w-[325px] aspect-[9/19] bg-[#09090b] rounded-[48px] p-3 shadow-2xl border-[6px] border-zinc-800 flex flex-col overflow-hidden select-none">
+                    <div class="relative w-full max-w-[325px] aspect-[9/19] bg-[#09090b] rounded-[48px] p-2.5 shadow-2xl border-[6px] border-zinc-800 flex flex-col overflow-hidden select-none">
                         <!-- Notch -->
                         <div class="absolute top-0 left-1/3 right-1/3 h-5 bg-zinc-800 rounded-b-xl z-50"></div>
                         
-                        <div class="relative z-10 flex flex-col h-full text-white font-sans text-xs pt-4 px-2">
-                            <div class="flex justify-between items-center mb-4">
-                                <div class="flex items-center gap-2">
-                                    <div class="w-6 h-6 rounded-lg bg-neutral-900 border border-white/10 flex items-center justify-center overflow-hidden">
-                                        <img src="logo.png" alt="Azyr Logo" class="w-full h-full object-cover">
-                                    </div>
-                                    <div>
-                                        <span class="font-display font-medium text-xs scale-95 tracking-wide text-zinc-200">Azyr Task Deck</span>
-                                    </div>
-                                </div>
-                                <span class="text-[9px] bg-brand-pink/10 text-brand-pink border border-brand-pink/20 px-2 py-0.5 rounded-full font-bold">
-                                    🔥 Ruhe & Fokus
-                                </span>
-                            </div>
-
-                            <!-- Single card static -->
-                            <div class="bg-zinc-950/90 border border-white/10 p-5 rounded-3xl mt-4 relative shadow-2xl flex flex-col gap-6 justify-between flex-1 min-h-[170px] border-l-brand-pink border-l-2">
-                                <div class="flex flex-col text-left">
-                                    <div class="flex items-center justify-between text-zinc-550 text-[9px] font-bold tracking-wider uppercase">
-                                        <span>Aktuelle Karte</span>
-                                        <span class="text-brand-pink font-mono">1 von 4</span>
-                                    </div>
-                                    <h4 class="font-display font-black text-sm text-white mt-3 leading-tight select-none">
-                                        Marketing-Konzept deines Premium-Launches finalisieren
-                                    </h4>
-                                    <p class="text-[10px] text-zinc-400 mt-2 flex items-center gap-1 font-light">
-                                        <i class="fa-solid fa-map-pin text-brand-peach"></i>
-                                        <span>📍 Büro-Aktivierung</span>
-                                    </p>
-                                </div>
-
-                                <div class="grid grid-cols-2 gap-2 pt-4 border-t border-white/[0.04]">
-                                    <div class="p-2 rounded-xl bg-zinc-900 border border-white/5 text-center text-zinc-400 text-[10px]">
-                                        Später ↩
-                                    </div>
-                                    <div class="p-2 rounded-xl bg-white text-black font-extrabold text-center text-[10px]">
-                                        Erledigt ✓
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Mosaic Board Visual -->
-                            <div class="bg-zinc-950/40 border border-white/5 p-3 rounded-2xl mb-4 mt-6">
-                                <div class="flex justify-between items-center mb-2">
-                                    <span class="text-[9px] font-mono text-zinc-500 uppercase tracking-widest">DEIN MOSAIC RASTER</span>
-                                    <span class="text-[10px] font-bold text-white/50">19 / 36</span>
-                                </div>
-
-                                <div class="grid grid-cols-6 gap-1.5 bg-black/50 p-1.5 rounded-xl border border-white/5">
-                                    <!-- 36 items -->
-                                    <script>
-                                        for (let i = 0; i < 36; i++) {
-                                            let tileClass = "aspect-square rounded-sm ";
-                                            if (i < 19) {
-                                                if (i % 4 === 0) tileClass += "bg-[#FF9E7D]";
-                                                else if (i % 4 === 1) tileClass += "bg-[#FF7DB2]";
-                                                else if (i % 4 === 2) tileClass += "bg-[#B084F9]";
-                                                else tileClass += "bg-[#C29BFF]";
-                                            } else {
-                                                tileClass += "bg-[#141416]";
-                                            }
-                                            document.write('<div class="' + tileClass + '"></div>');
-                                        }
-                                    </script>
-                                </div>
-                            </div>
-
-                            <div class="bg-[#121215] border border-white/5 p-2 px-3 rounded-xl flex items-center justify-center gap-1.5 mb-2 text-[9px] text-zinc-500">
-                                <i class="fa-solid fa-lock text-brand-pink text-[9px]"></i>
-                                <span>Aufgaben laufen nativerweise über Apple</span>
-                            </div>
+                        <!-- Simulated Screen Body -->
+                        <div class="relative w-full h-full rounded-[38px] overflow-hidden bg-[#000000]">
+                            <img src="IMG_8669.PNG" onerror="if (this.src.includes('IMG_8669.PNG')) { this.src = 'IMG_8669.png'; } else if (this.src.includes('IMG_8669.png')) { this.src = 'logo.png'; }" alt="Azyr App Screenshot" class="w-full h-full object-cover rounded-[38px]" />
                         </div>
                     </div>
                 </div>
